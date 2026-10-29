@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+node_modules/
+# default oracle working directory when the oracle runs on this host (tools/run.sh)
+shellbench-oracle/

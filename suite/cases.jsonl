@@ -1,0 +1,351 @@
+{"id": "view-001", "family": "view", "families": ["view"], "utils": ["cat"], "tags": [], "world": "project", "files": {}, "script": "cat notes.txt"}
+{"id": "view-002", "family": "view", "families": ["view"], "utils": ["cat"], "tags": [], "world": "project", "files": {}, "script": "cat README.md CHANGELOG.md"}
+{"id": "view-003", "family": "view", "families": ["view"], "utils": ["cat"], "tags": [], "world": "project", "files": {}, "script": "cat -n src/util.py"}
+{"id": "view-004", "family": "view", "families": ["view"], "utils": ["cat"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "cat -A crlf.txt"}
+{"id": "view-005", "family": "view", "families": ["view"], "utils": ["cat"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "cat -v latin1.txt"}
+{"id": "view-006", "family": "view", "families": ["view"], "utils": ["cat"], "tags": [], "world": "project", "files": {}, "script": "cat -e noeol.txt"}
+{"id": "view-007", "family": "view", "families": ["view"], "utils": ["cat"], "tags": [], "world": "project", "files": {}, "script": "cat -s notes.txt"}
+{"id": "view-008", "family": "view", "families": ["view"], "utils": ["cat"], "tags": [], "world": "project", "files": {}, "script": "cat -T scores.tsv"}
+{"id": "view-009", "family": "view", "families": ["view"], "utils": ["cat"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "cat unicode.txt"}
+{"id": "view-010", "family": "view", "families": ["view"], "utils": ["cat"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "cat -n unicode.txt"}
+{"id": "view-011", "family": "view", "families": ["shell", "view"], "utils": ["cat", "echo"], "tags": [], "world": "project", "files": {}, "script": "cat noeol.txt; echo \"[end]\""}
+{"id": "view-012", "family": "view", "families": ["shell", "view"], "utils": ["cat", "echo"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "cat absent-file.txt; echo \"rc=$?\""}
+{"id": "view-013", "family": "view", "families": ["shell", "view"], "utils": ["cat", "echo"], "tags": ["exit-status", "missing-path", "write"], "world": "project", "files": {}, "script": "cat notes.txt missing.txt > /dev/null; echo \"rc=$?\""}
+{"id": "view-014", "family": "view", "families": ["shell", "view"], "utils": ["cat", "echo"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "cat empty; echo \"rc=$?\""}
+{"id": "view-015", "family": "view", "families": ["view"], "utils": ["cat", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "cat < orders.csv | head -n 3"}
+{"id": "view-016", "family": "view", "families": ["view"], "utils": ["head"], "tags": [], "world": "project", "files": {}, "script": "head notes.txt"}
+{"id": "view-017", "family": "view", "families": ["view"], "utils": ["head"], "tags": [], "world": "project", "files": {}, "script": "head -n 5 server.log"}
+{"id": "view-018", "family": "view", "families": ["view"], "utils": ["head"], "tags": [], "world": "project", "files": {}, "script": "head -20 src/app.py"}
+{"id": "view-019", "family": "view", "families": ["view"], "utils": ["head"], "tags": [], "world": "project", "files": {}, "script": "head -c 64 long.txt"}
+{"id": "view-020", "family": "view", "families": ["view"], "utils": ["head"], "tags": [], "world": "project", "files": {}, "script": "head -n -20 notes.txt"}
+{"id": "view-021", "family": "view", "families": ["view"], "utils": ["head"], "tags": [], "world": "project", "files": {}, "script": "head -n 3 notes.txt README.md"}
+{"id": "view-022", "family": "view", "families": ["view"], "utils": ["head"], "tags": [], "world": "project", "files": {}, "script": "head -q -n 2 notes.txt README.md"}
+{"id": "view-023", "family": "view", "families": ["view"], "utils": ["head"], "tags": [], "world": "project", "files": {}, "script": "head -n 2 *.csv *.tsv"}
+{"id": "view-024", "family": "view", "families": ["shell", "view"], "utils": ["echo", "head"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "head -n 1 missing.txt notes.txt; echo \"rc=$?\""}
+{"id": "view-025", "family": "view", "families": ["shell", "view"], "utils": ["echo", "head"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "head -n 0 notes.txt; echo \"rc=$?\""}
+{"id": "view-026", "family": "view", "families": ["view"], "utils": ["head"], "tags": [], "world": "project", "files": {}, "script": "head -c -10 noeol.txt"}
+{"id": "view-027", "family": "view", "families": ["view"], "utils": ["tail"], "tags": [], "world": "project", "files": {}, "script": "tail notes.txt"}
+{"id": "view-028", "family": "view", "families": ["view"], "utils": ["tail"], "tags": [], "world": "project", "files": {}, "script": "tail -n 5 server.log"}
+{"id": "view-029", "family": "view", "families": ["view"], "utils": ["tail"], "tags": [], "world": "project", "files": {}, "script": "tail -n +20 notes.txt"}
+{"id": "view-030", "family": "view", "families": ["view"], "utils": ["tail"], "tags": [], "world": "project", "files": {}, "script": "tail -n 3 orders.csv scores.tsv"}
+{"id": "view-031", "family": "view", "families": ["view"], "utils": ["tail"], "tags": [], "world": "project", "files": {}, "script": "tail -c 20 noeol.txt"}
+{"id": "view-032", "family": "view", "families": ["view"], "utils": ["tail"], "tags": [], "world": "project", "files": {}, "script": "tail -n 2 noeol.txt"}
+{"id": "view-033", "family": "view", "families": ["view"], "utils": ["tail"], "tags": [], "world": "project", "files": {}, "script": "tail -v -n 2 notes.txt"}
+{"id": "view-034", "family": "view", "families": ["view"], "utils": ["head", "tail"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "tail -n +2 orders.csv | head -n 3"}
+{"id": "view-035", "family": "view", "families": ["view"], "utils": ["nl"], "tags": [], "world": "project", "files": {}, "script": "nl src/util.py"}
+{"id": "view-036", "family": "view", "families": ["view"], "utils": ["nl"], "tags": [], "world": "project", "files": {}, "script": "nl -ba src/util.py"}
+{"id": "view-037", "family": "view", "families": ["sed", "view"], "utils": ["nl", "sed"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "nl -ba src/app.py | sed -n '10,20p'"}
+{"id": "view-038", "family": "view", "families": ["view"], "utils": ["head", "nl"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "nl -ba -w3 -s': ' notes.txt | head -n 6"}
+{"id": "view-039", "family": "view", "families": ["view"], "utils": ["nl"], "tags": [], "world": "project", "files": {}, "script": "nl -ba noeol.txt"}
+{"id": "view-040", "family": "view", "families": ["view"], "utils": ["tac"], "tags": [], "world": "project", "files": {}, "script": "tac dup.txt"}
+{"id": "view-041", "family": "view", "families": ["view"], "utils": ["cat", "head", "tail"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "cat long.txt | head -n 100 | tail -n 3"}
+{"id": "view-042", "family": "view", "families": ["shell", "view"], "utils": ["echo", "head"], "tags": [], "world": "project", "files": {}, "script": "for f in src/*.py; do echo \"== $f\"; head -n 2 \"$f\"; done"}
+{"id": "view-043", "family": "view", "families": ["view"], "utils": ["cat"], "tags": ["heredoc", "write"], "world": "project", "files": {}, "script": "cat > out.txt <<'EOF'\nfirst $HOME line\n`not run`\nEOF\ncat out.txt"}
+{"id": "view-044", "family": "view", "families": ["view"], "utils": ["cat"], "tags": ["heredoc", "write"], "world": "project", "files": {}, "script": "cat > out.txt <<EOF\nhome=$HOME\nsum=$((6*7))\nEOF\ncat out.txt"}
+{"id": "view-045", "family": "view", "families": ["view"], "utils": ["cat", "tail"], "tags": ["heredoc", "write"], "world": "project", "files": {}, "script": "cat >> notes.txt <<'EOF'\nDay 11: appended entry\nEOF\ntail -n 3 notes.txt"}
+{"id": "view-046", "family": "view", "families": ["view", "wc"], "utils": ["cat", "wc"], "tags": ["heredoc", "non-ascii", "write"], "world": "project", "files": {}, "script": "cat > café.txt <<'EOF'\nprix: 3€\nnaïve\nEOF\ncat café.txt; wc -c café.txt"}
+{"id": "view-047", "family": "view", "families": ["diff-bytes", "view"], "utils": ["cat", "od"], "tags": ["heredoc", "non-ascii", "write"], "world": "project", "files": {}, "script": "cat > accents.txt <<'EOF'\nÜber 日本\nEOF\nod -An -tx1 accents.txt"}
+{"id": "view-048", "family": "view", "families": ["diff-bytes", "shell", "view"], "utils": ["cat", "od", "printf"], "tags": ["heredoc", "non-ascii", "write"], "world": "project", "files": {}, "script": "printf 'start\\n' > log.txt\ncat >> log.txt <<'EOF'\nfin — déjà vu\nEOF\nod -c log.txt"}
+{"id": "view-049", "family": "view", "families": ["view"], "utils": ["cat"], "tags": ["heredoc"], "world": "project", "files": {}, "script": "cat <<-EOF\n\ttab-led line\n\t\ttwo tabs\n\tEOF"}
+{"id": "view-050", "family": "view", "families": ["ls-stat", "shell", "view"], "utils": ["cat", "echo", "ls"], "tags": ["exit-status", "heredoc", "missing-path", "write"], "world": "project", "files": {}, "script": "cat > reports/today.txt <<'EOF'\nx\nEOF\necho \"rc=$?\"; ls reports"}
+{"id": "view-051", "family": "view", "families": ["diff-bytes", "view"], "utils": ["head", "od"], "tags": ["non-ascii", "pipeline", "write"], "world": "project", "files": {}, "script": "head -n 3 unicode.txt > u3.txt; od -An -tx1 u3.txt | head -n 2"}
+{"id": "view-052", "family": "view", "families": ["diff-bytes", "fileops", "view"], "utils": ["od", "tail", "tee"], "tags": ["non-ascii", "pipeline"], "world": "project", "files": {}, "script": "tail -n 2 unicode.txt | tee tail.txt; od -An -tx1 tail.txt"}
+{"id": "view-053", "family": "view", "families": ["view"], "utils": ["cat", "head", "tail"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "cat notes.txt | head -n 4 | tail -n 1"}
+{"id": "view-054", "family": "view", "families": ["view", "wc"], "utils": ["cat", "wc"], "tags": [], "world": "project", "files": {}, "script": "cat -n blank.txt; wc -c blank.txt"}
+{"id": "view-055", "family": "view", "families": ["view"], "utils": ["head"], "tags": ["symlink"], "world": "project", "files": {}, "script": "head -n 2 'spaces in name.txt' link-to-src/util.py"}
+{"id": "sed-001", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '1,10p' src/app.py"}
+{"id": "sed-002", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '25,40p' src/app.py"}
+{"id": "sed-003", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '5p' notes.txt"}
+{"id": "sed-004", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '$p' notes.txt"}
+{"id": "sed-005", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '/^class/,/^$/p' src/app.py"}
+{"id": "sed-006", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '/TODO/p' src/app.py"}
+{"id": "sed-007", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '/Day 3/,/Day 5/p' notes.txt"}
+{"id": "sed-008", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '/^def /,/^def /p' src/util.py"}
+{"id": "sed-009", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '/Summary/,+2p' notes.txt"}
+{"id": "sed-010", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '3,1p' notes.txt"}
+{"id": "sed-011", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '0~10p' long.txt"}
+{"id": "sed-012", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '10,+3p' long.txt"}
+{"id": "sed-013", "family": "sed", "families": ["sed", "view"], "utils": ["head", "sed"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sed 's/anemones/ANEMONES/' notes.txt | head -n 6"}
+{"id": "sed-014", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed 's/a/A/g' dup.txt"}
+{"id": "sed-015", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -E 's/([0-9]+)/<\\1>/g' nums.txt"}
+{"id": "sed-016", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sed 's/[0-9]\\+/N/' notes.txt | sed -n '4,6p'"}
+{"id": "sed-017", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -e 's/^/> /' -e '3q' notes.txt"}
+{"id": "sed-018", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed '/^$/d' notes.txt"}
+{"id": "sed-019", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed '1d;$d' dup.txt"}
+{"id": "sed-020", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "sed -n 'l' crlf.txt"}
+{"id": "sed-021", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "sed 's/é/e/g' unicode.txt"}
+{"id": "sed-022", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '2{p;q}' notes.txt"}
+{"id": "sed-023", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed '2i\\inserted' dup.txt"}
+{"id": "sed-024", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed '/b/a\\after b' dup.txt"}
+{"id": "sed-025", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed 'y/abc/xyz/' dup.txt"}
+{"id": "sed-026", "family": "sed", "families": ["sed", "view"], "utils": ["cat", "sed"], "tags": ["in-place"], "world": "project", "files": {}, "script": "sed -i 's/8080/9090/' config.ini && cat config.ini"}
+{"id": "sed-027", "family": "sed", "families": ["grep", "ls-stat", "sed"], "utils": ["grep", "ls", "sed"], "tags": ["in-place"], "world": "project", "files": {}, "script": "sed -i.bak 's/debug = false/debug = true/' config.ini; ls config.ini*; grep -H debug config.ini*"}
+{"id": "sed-028", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '/\\[survey\\]/,/^\\[/p' config.ini"}
+{"id": "sed-029", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n 's/^port = //p' config.ini"}
+{"id": "sed-030", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed '5,$d' notes.txt"}
+{"id": "sed-031", "family": "sed", "families": ["sed", "view"], "utils": ["head", "sed"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sed = src/util.py | head -n 6"}
+{"id": "sed-032", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '/error/Ip' notes.txt"}
+{"id": "sed-033", "family": "sed", "families": ["sed", "view"], "utils": ["head", "sed"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sed 's/\\(Day\\) \\([0-9]*\\)/\\2-\\1/' notes.txt | head -n 5"}
+{"id": "sed-034", "family": "sed", "families": ["sed", "shell"], "utils": ["echo", "sed"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "sed -n 1,3p missing.txt; echo \"rc=$?\""}
+{"id": "sed-035", "family": "sed", "families": ["sed", "shell"], "utils": ["echo", "sed"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "sed -n 1,3p notes.txt missing.txt; echo \"rc=$?\""}
+{"id": "sed-036", "family": "sed", "families": ["sed", "shell"], "utils": ["echo", "sed"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "sed 's/x/y' notes.txt; echo \"rc=$?\""}
+{"id": "sed-037", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '/TODO/=' src/app.py"}
+{"id": "sed-038", "family": "sed", "families": ["diff-bytes", "sed", "view"], "utils": ["od", "sed", "tail"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sed -n p noeol.txt | od -c | tail -n 2"}
+{"id": "sed-039", "family": "sed", "families": ["sed", "shell"], "utils": ["cd", "sed"], "tags": [], "world": "project", "files": {}, "script": "cd src && sed -n '1,5p' app.py"}
+{"id": "sed-040", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "sed -n '1,3p' unicode.txt latin1.txt"}
+{"id": "sed-041", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -s -n '1p' notes.txt README.md"}
+{"id": "sed-042", "family": "sed", "families": ["sed"], "utils": ["sed"], "tags": [], "world": "project", "files": {}, "script": "sed -n '/^## /{s/## //;p}' CHANGELOG.md"}
+{"id": "grep-001", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -n TODO src/app.py"}
+{"id": "grep-002", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["context"], "world": "project", "files": {}, "script": "grep -n -A2 anemones notes.txt"}
+{"id": "grep-003", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["context"], "world": "project", "files": {}, "script": "grep -n -B1 -A1 Day notes.txt"}
+{"id": "grep-004", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["context"], "world": "project", "files": {}, "script": "grep -n -C1 'Day [35]' notes.txt"}
+{"id": "grep-005", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["context"], "world": "project", "files": {}, "script": "grep -A1 crab notes.txt README.md"}
+{"id": "grep-006", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["context"], "world": "project", "files": {}, "script": "grep -n -A1 TODO src/app.py src/util.py"}
+{"id": "grep-007", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -c Day notes.txt"}
+{"id": "grep-008", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -c TODO src/*.py"}
+{"id": "grep-009", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -i todo notes.txt"}
+{"id": "grep-010", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -in error notes.txt"}
+{"id": "grep-011", "family": "grep", "families": ["grep", "view"], "utils": ["grep", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "grep -w Day notes.txt | head -n 3"}
+{"id": "grep-012", "family": "grep", "families": ["grep", "view"], "utils": ["grep", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "grep -v '^$' notes.txt | head -n 5"}
+{"id": "grep-013", "family": "grep", "families": ["grep", "view"], "utils": ["grep", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "grep -o '[0-9]\\+' notes.txt | head"}
+{"id": "grep-014", "family": "grep", "families": ["grep", "view"], "utils": ["grep", "tail"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "grep -oE 'req=[0-9]+' server.log | tail -n 3"}
+{"id": "grep-015", "family": "grep", "families": ["grep", "wc"], "utils": ["grep", "wc"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "grep -E 'WARN|ERROR' server.log | wc -l"}
+{"id": "grep-016", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -F '[server]' config.ini"}
+{"id": "grep-017", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["host-fs"], "world": "project", "files": {}, "script": "grep -rn TODO src"}
+{"id": "grep-018", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["host-fs"], "world": "project", "files": {}, "script": "grep -rn TODO ."}
+{"id": "grep-019", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -rn anemones notes.txt"}
+{"id": "grep-020", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["host-fs"], "world": "project", "files": {}, "script": "grep -rl TODO ."}
+{"id": "grep-021", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["host-fs"], "world": "project", "files": {}, "script": "grep -r --include='*.py' -n 'def ' src"}
+{"id": "grep-022", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -rn fixme"}
+{"id": "grep-023", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -l TODO src/*.py docs/*.md"}
+{"id": "grep-024", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -L TODO src/*.py"}
+{"id": "grep-025", "family": "grep", "families": ["grep", "shell"], "utils": ["echo", "grep"], "tags": [], "world": "project", "files": {}, "script": "grep -q TODO src/app.py && echo found"}
+{"id": "grep-026", "family": "grep", "families": ["grep", "shell"], "utils": ["echo", "grep"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "grep nomatch notes.txt; echo \"rc=$?\""}
+{"id": "grep-027", "family": "grep", "families": ["grep", "shell"], "utils": ["echo", "grep"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "grep x missing.txt; echo \"rc=$?\""}
+{"id": "grep-028", "family": "grep", "families": ["grep", "shell"], "utils": ["echo", "grep"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "grep -s x missing.txt; echo \"rc=$?\""}
+{"id": "grep-029", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "grep marker bin.dat"}
+{"id": "grep-030", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "grep -a -c marker bin.dat"}
+{"id": "grep-031", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "grep -n 'café' unicode.txt"}
+{"id": "grep-032", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -c '' noeol.txt"}
+{"id": "grep-033", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -m2 -n INFO server.log"}
+{"id": "grep-034", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -h -n TODO src/*.py"}
+{"id": "grep-035", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -e TODO -e fixme src/app.py"}
+{"id": "grep-036", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": [], "world": "project", "files": {}, "script": "grep -n '^def\\|^class' src/app.py"}
+{"id": "grep-037", "family": "grep", "families": ["grep", "view"], "utils": ["grep", "head"], "tags": ["context", "pipeline"], "world": "project", "files": {}, "script": "grep -n -A1 -B1 status server.log | head -n 12"}
+{"id": "grep-038", "family": "grep", "families": ["grep"], "utils": ["grep"], "tags": ["context", "pipeline"], "world": "project", "files": {}, "script": "grep -A3 'Day 1:' notes.txt | grep -n Day"}
+{"id": "rg-001", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": [], "world": "project", "files": {}, "script": "rg -n TODO src/app.py"}
+{"id": "rg-002", "family": "rg", "families": ["rg", "sort-uniq"], "utils": ["rg", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "rg -n TODO src | sort"}
+{"id": "rg-003", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": [], "world": "project", "files": {}, "script": "rg todo notes.txt"}
+{"id": "rg-004", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": [], "world": "project", "files": {}, "script": "rg -i todo notes.txt"}
+{"id": "rg-005", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": [], "world": "project", "files": {}, "script": "rg -S Todo notes.txt"}
+{"id": "rg-006", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": ["context"], "world": "project", "files": {}, "script": "rg -n -A1 TODO src/app.py"}
+{"id": "rg-007", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": ["context"], "world": "project", "files": {}, "script": "rg -n -C1 'Day [35]' notes.txt"}
+{"id": "rg-008", "family": "rg", "families": ["rg", "sort-uniq"], "utils": ["rg", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "rg -c TODO src docs | sort"}
+{"id": "rg-009", "family": "rg", "families": ["rg", "sort-uniq"], "utils": ["rg", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "rg -l TODO | sort"}
+{"id": "rg-010", "family": "rg", "families": ["rg", "sort-uniq"], "utils": ["rg", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "rg --files src | sort"}
+{"id": "rg-011", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": ["host-fs"], "world": "project", "files": {}, "script": "rg -n TODO notes.txt src/util.py"}
+{"id": "rg-012", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": [], "world": "project", "files": {}, "script": "rg TODO src/util.py"}
+{"id": "rg-013", "family": "rg", "families": ["rg", "view"], "utils": ["head", "rg"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "rg -w Day notes.txt | head -n 3"}
+{"id": "rg-014", "family": "rg", "families": ["rg", "view"], "utils": ["head", "rg"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "rg -o 'req=\\d+' server.log | head -n 3"}
+{"id": "rg-015", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": [], "world": "project", "files": {}, "script": "rg -n 'def \\w+' src/util.py"}
+{"id": "rg-016", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": [], "world": "project", "files": {}, "script": "rg -F '[server]' config.ini"}
+{"id": "rg-017", "family": "rg", "families": ["rg", "shell"], "utils": ["echo", "rg"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "rg nomatch notes.txt; echo \"rc=$?\""}
+{"id": "rg-018", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": [], "world": "project", "files": {}, "script": "rg -n --hidden PORT ."}
+{"id": "rg-019", "family": "rg", "families": ["rg", "shell"], "utils": ["echo", "rg"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "rg -n PORT .; echo \"rc=$?\""}
+{"id": "rg-020", "family": "rg", "families": ["rg", "sort-uniq"], "utils": ["rg", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "rg -g '*.md' -l Guide | sort"}
+{"id": "rg-021", "family": "rg", "families": ["rg", "sort-uniq"], "utils": ["rg", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "rg --type py -l def | sort"}
+{"id": "rg-022", "family": "rg", "families": ["rg"], "utils": ["rg"], "tags": ["context", "host-fs"], "world": "project", "files": {}, "script": "rg -n -A1 TODO src/app.py src/util.py"}
+{"id": "rg-023", "family": "rg", "families": ["rg", "view"], "utils": ["head", "rg"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "rg -n anemone notes.txt | head -n 2"}
+{"id": "ls-stat-001", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls"}
+{"id": "ls-stat-002", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -a"}
+{"id": "ls-stat-003", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -la"}
+{"id": "ls-stat-004", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -l scripts"}
+{"id": "ls-stat-005", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -l docs"}
+{"id": "ls-stat-006", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -1 src"}
+{"id": "ls-stat-007", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -R src"}
+{"id": "ls-stat-008", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -d */"}
+{"id": "ls-stat-009", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -p"}
+{"id": "ls-stat-010", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -F docs scripts"}
+{"id": "ls-stat-011", "family": "ls-stat", "families": ["ls-stat", "shell"], "utils": ["echo", "ls"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "ls missing; echo \"rc=$?\""}
+{"id": "ls-stat-012", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": ["symlink"], "world": "project", "files": {}, "script": "ls -l docs/old.md"}
+{"id": "ls-stat-013", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -ld empty"}
+{"id": "ls-stat-014", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls src/*.py"}
+{"id": "ls-stat-015", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -S docs"}
+{"id": "ls-stat-016", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -lh long.txt"}
+{"id": "ls-stat-017", "family": "ls-stat", "families": ["ls-stat"], "utils": ["ls"], "tags": [], "world": "project", "files": {}, "script": "ls -A .hidden"}
+{"id": "ls-stat-018", "family": "ls-stat", "families": ["ls-stat"], "utils": ["stat"], "tags": [], "world": "project", "files": {}, "script": "stat -c '%s %n' notes.txt orders.csv"}
+{"id": "ls-stat-019", "family": "ls-stat", "families": ["ls-stat"], "utils": ["stat"], "tags": [], "world": "project", "files": {}, "script": "stat -c '%a %n' scripts/build.sh notes.txt"}
+{"id": "ls-stat-020", "family": "ls-stat", "families": ["ls-stat"], "utils": ["stat"], "tags": ["symlink"], "world": "project", "files": {}, "script": "stat -c '%F' docs/latest.md empty notes.txt"}
+{"id": "ls-stat-021", "family": "ls-stat", "families": ["ls-stat"], "utils": ["du"], "tags": ["host-fs"], "world": "project", "files": {}, "script": "du -sh long.txt"}
+{"id": "ls-stat-022", "family": "ls-stat", "families": ["ls-stat", "wc"], "utils": ["du", "wc"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "du -a src | wc -l"}
+{"id": "ls-stat-023", "family": "ls-stat", "families": ["grep", "ls-stat"], "utils": ["grep", "ls"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "ls -la | grep -c '^d'"}
+{"id": "fileops-001", "family": "fileops", "families": ["fileops", "ls-stat"], "utils": ["ls", "mkdir"], "tags": [], "world": "project", "files": {}, "script": "mkdir -p a/b/c && ls -R a"}
+{"id": "fileops-002", "family": "fileops", "families": ["fileops", "shell"], "utils": ["echo", "mkdir"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "mkdir a && mkdir a; echo \"rc=$?\""}
+{"id": "fileops-003", "family": "fileops", "families": ["diff-bytes", "fileops", "shell"], "utils": ["cmp", "cp", "echo"], "tags": [], "world": "project", "files": {}, "script": "cp notes.txt copy.txt && cmp notes.txt copy.txt && echo same"}
+{"id": "fileops-004", "family": "fileops", "families": ["fileops", "view"], "utils": ["cp", "head"], "tags": [], "world": "project", "files": {}, "script": "cp notes.txt README.md; head -n 2 README.md"}
+{"id": "fileops-005", "family": "fileops", "families": ["fileops", "ls-stat", "view"], "utils": ["head", "ls", "mv"], "tags": [], "world": "project", "files": {}, "script": "mv notes.txt CHANGELOG.md; ls; head -n 1 CHANGELOG.md"}
+{"id": "fileops-006", "family": "fileops", "families": ["fileops", "find-xargs", "sort-uniq"], "utils": ["cp", "find", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "cp -r src src2 && find src2 | sort"}
+{"id": "fileops-007", "family": "fileops", "families": ["fileops", "ls-stat"], "utils": ["ls", "rm"], "tags": [], "world": "project", "files": {}, "script": "rm -r empty && ls"}
+{"id": "fileops-008", "family": "fileops", "families": ["fileops", "shell"], "utils": ["echo", "rm"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "rm missing.txt; echo \"rc=$?\""}
+{"id": "fileops-009", "family": "fileops", "families": ["fileops", "shell"], "utils": ["echo", "rm"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "rm -f missing.txt; echo \"rc=$?\""}
+{"id": "fileops-010", "family": "fileops", "families": ["fileops", "shell"], "utils": ["echo", "rmdir"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "rmdir src; echo \"rc=$?\""}
+{"id": "fileops-011", "family": "fileops", "families": ["fileops", "view"], "utils": ["head", "ln", "readlink"], "tags": ["symlink"], "world": "project", "files": {}, "script": "ln -s notes.txt n.lnk && head -n 1 n.lnk && readlink n.lnk"}
+{"id": "fileops-012", "family": "fileops", "families": ["fileops", "shell", "view"], "utils": ["cat", "echo"], "tags": ["symlink", "write"], "world": "project", "files": {}, "script": "echo appended >> link-to-src/x.txt; cat src/x.txt"}
+{"id": "fileops-013", "family": "fileops", "families": ["fileops", "shell", "view"], "utils": ["cat", "echo"], "tags": ["symlink", "write"], "world": "project", "files": {}, "script": "echo hi > docs/latest.md; cat docs/guide.md"}
+{"id": "fileops-014", "family": "fileops", "families": ["cut-tr", "fileops", "ls-stat"], "utils": ["chmod", "cut", "ls"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "chmod +x notes.txt && ls -l notes.txt | cut -c1-10"}
+{"id": "fileops-015", "family": "fileops", "families": ["fileops", "ls-stat"], "utils": ["chmod", "stat"], "tags": [], "world": "project", "files": {}, "script": "chmod 600 config.ini; stat -c '%a' config.ini"}
+{"id": "fileops-016", "family": "fileops", "families": ["fileops"], "utils": ["readlink"], "tags": ["symlink"], "world": "project", "files": {}, "script": "readlink -f docs/latest.md"}
+{"id": "fileops-017", "family": "fileops", "families": ["fileops"], "utils": ["realpath"], "tags": ["symlink"], "world": "project", "files": {}, "script": "realpath link-to-src/util.py"}
+{"id": "fileops-018", "family": "fileops", "families": ["fileops"], "utils": ["basename", "dirname"], "tags": [], "world": "project", "files": {}, "script": "basename src/web/routes.js .js; dirname src/web/routes.js"}
+{"id": "fileops-019", "family": "fileops", "families": ["fileops", "sort-uniq"], "utils": ["sort", "tar"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "tar -cf a.tar docs && tar -tf a.tar | sort"}
+{"id": "fileops-020", "family": "fileops", "families": ["fileops", "ls-stat"], "utils": ["ls", "mv"], "tags": [], "world": "project", "files": {}, "script": "mv src/util.py src/web/ && ls src src/web"}
+{"id": "fileops-021", "family": "fileops", "families": ["fileops", "ls-stat"], "utils": ["ls", "touch"], "tags": [], "world": "project", "files": {}, "script": "touch notes.txt new.txt && ls new.txt notes.txt"}
+{"id": "fileops-022", "family": "fileops", "families": ["fileops", "ls-stat"], "utils": ["cp", "ls", "mkdir"], "tags": [], "world": "project", "files": {}, "script": "mkdir -p out && cp src/*.py out/ && ls out"}
+{"id": "cut-tr-001", "family": "cut-tr", "families": ["cut-tr", "view"], "utils": ["cut", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "cut -d, -f2,4 orders.csv | head -n 5"}
+{"id": "cut-tr-002", "family": "cut-tr", "families": ["cut-tr"], "utils": ["cut"], "tags": [], "world": "project", "files": {}, "script": "cut -f1,3 scores.tsv"}
+{"id": "cut-tr-003", "family": "cut-tr", "families": ["cut-tr", "view"], "utils": ["cut", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "cut -c1-10 notes.txt | head -n 5"}
+{"id": "cut-tr-004", "family": "cut-tr", "families": ["cut-tr"], "utils": ["cut"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "cut -c1-4 unicode.txt"}
+{"id": "cut-tr-005", "family": "cut-tr", "families": ["cut-tr"], "utils": ["cut"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "cut -b1-5 unicode.txt"}
+{"id": "cut-tr-006", "family": "cut-tr", "families": ["cut-tr", "view"], "utils": ["cut", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "cut -d' ' -f2- server.log | head -n 3"}
+{"id": "cut-tr-007", "family": "cut-tr", "families": ["cut-tr", "view"], "utils": ["cut", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "cut -d, -f9 orders.csv | head -n 3"}
+{"id": "cut-tr-008", "family": "cut-tr", "families": ["cut-tr"], "utils": ["tr"], "tags": [], "world": "project", "files": {}, "script": "tr 'a-z' 'A-Z' < dup.txt"}
+{"id": "cut-tr-009", "family": "cut-tr", "families": ["cut-tr", "diff-bytes"], "utils": ["od", "tr"], "tags": ["non-ascii", "pipeline"], "world": "project", "files": {}, "script": "tr -d '\\r' < crlf.txt | od -c"}
+{"id": "cut-tr-010", "family": "cut-tr", "families": ["cut-tr", "view"], "utils": ["head", "tr"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "tr ',' '\\t' < orders.csv | head -n 3"}
+{"id": "cut-tr-011", "family": "cut-tr", "families": ["cut-tr", "view"], "utils": ["head", "tr"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "tr -cd '[:digit:]\\n' < notes.txt | head -n 6"}
+{"id": "cut-tr-012", "family": "cut-tr", "families": ["cut-tr"], "utils": ["tr"], "tags": [], "world": "project", "files": {}, "script": "tr -s 'a-z' < dup.txt"}
+{"id": "cut-tr-013", "family": "cut-tr", "families": ["cut-tr"], "utils": ["paste"], "tags": [], "world": "project", "files": {}, "script": "paste -sd, dup.txt"}
+{"id": "cut-tr-014", "family": "cut-tr", "families": ["cut-tr", "view"], "utils": ["head", "paste"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "paste -d' ' dup.txt dup.txt | head -n 3"}
+{"id": "cut-tr-015", "family": "cut-tr", "families": ["cut-tr", "view"], "utils": ["column", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "column -t -s, orders.csv | head -n 4"}
+{"id": "cut-tr-016", "family": "cut-tr", "families": ["cut-tr", "view"], "utils": ["fold", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "fold -w 20 README.md | head -n 5"}
+{"id": "cut-tr-017", "family": "cut-tr", "families": ["cut-tr", "view"], "utils": ["cat", "tr"], "tags": ["non-ascii", "pipeline"], "world": "project", "files": {}, "script": "cat unicode.txt | tr 'a-z' 'A-Z'"}
+{"id": "cut-tr-018", "family": "cut-tr", "families": ["cut-tr"], "utils": ["cut"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "cut -c3- unicode.txt"}
+{"id": "wc-001", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": [], "world": "project", "files": {}, "script": "wc -l notes.txt"}
+{"id": "wc-002", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": [], "world": "project", "files": {}, "script": "wc notes.txt"}
+{"id": "wc-003", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": [], "world": "project", "files": {}, "script": "wc -l src/*.py"}
+{"id": "wc-004", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "wc -c unicode.txt"}
+{"id": "wc-005", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "wc -m unicode.txt"}
+{"id": "wc-006", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": [], "world": "project", "files": {}, "script": "wc -w notes.txt README.md"}
+{"id": "wc-007", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": [], "world": "project", "files": {}, "script": "wc -l < notes.txt"}
+{"id": "wc-008", "family": "wc", "families": ["view", "wc"], "utils": ["cat", "wc"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "cat notes.txt | wc -l"}
+{"id": "wc-009", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": [], "world": "project", "files": {}, "script": "wc -l noeol.txt"}
+{"id": "wc-010", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": [], "world": "project", "files": {}, "script": "wc -L long.txt"}
+{"id": "wc-011", "family": "wc", "families": ["shell", "wc"], "utils": ["echo", "wc"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "wc src; echo \"rc=$?\""}
+{"id": "wc-012", "family": "wc", "families": ["shell", "wc"], "utils": ["echo", "wc"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "wc -l missing.txt notes.txt; echo \"rc=$?\""}
+{"id": "wc-013", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": [], "world": "project", "files": {}, "script": "wc blank.txt"}
+{"id": "wc-014", "family": "wc", "families": ["wc"], "utils": ["wc"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "wc -c latin1.txt bin.dat"}
+{"id": "sort-uniq-001", "family": "sort-uniq", "families": ["sort-uniq"], "utils": ["sort"], "tags": [], "world": "project", "files": {}, "script": "sort words.txt"}
+{"id": "sort-uniq-002", "family": "sort-uniq", "families": ["sort-uniq"], "utils": ["sort"], "tags": [], "world": "project", "files": {}, "script": "LC_ALL=C sort words.txt"}
+{"id": "sort-uniq-003", "family": "sort-uniq", "families": ["sort-uniq"], "utils": ["sort"], "tags": [], "world": "project", "files": {}, "script": "sort -u words.txt"}
+{"id": "sort-uniq-004", "family": "sort-uniq", "families": ["sort-uniq"], "utils": ["sort"], "tags": [], "world": "project", "files": {}, "script": "sort -f words.txt"}
+{"id": "sort-uniq-005", "family": "sort-uniq", "families": ["sort-uniq"], "utils": ["sort"], "tags": [], "world": "project", "files": {}, "script": "sort -n nums.txt"}
+{"id": "sort-uniq-006", "family": "sort-uniq", "families": ["sort-uniq", "view"], "utils": ["head", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sort -rn nums.txt | head -n 3"}
+{"id": "sort-uniq-007", "family": "sort-uniq", "families": ["sort-uniq", "view"], "utils": ["head", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sort -t, -k4,4n orders.csv | head -n 5"}
+{"id": "sort-uniq-008", "family": "sort-uniq", "families": ["sort-uniq", "view"], "utils": ["head", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sort -k3,3nr scores.tsv | head -n 4"}
+{"id": "sort-uniq-009", "family": "sort-uniq", "families": ["sort-uniq"], "utils": ["sort"], "tags": [], "world": "project", "files": {}, "script": "sort -V versions.txt"}
+{"id": "sort-uniq-010", "family": "sort-uniq", "families": ["sort-uniq"], "utils": ["sort", "uniq"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sort dup.txt | uniq -c"}
+{"id": "sort-uniq-011", "family": "sort-uniq", "families": ["sort-uniq"], "utils": ["sort", "uniq"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sort dup.txt | uniq -d"}
+{"id": "sort-uniq-012", "family": "sort-uniq", "families": ["sort-uniq"], "utils": ["uniq"], "tags": [], "world": "project", "files": {}, "script": "uniq -c dup.txt"}
+{"id": "sort-uniq-013", "family": "sort-uniq", "families": ["cut-tr", "sort-uniq", "view"], "utils": ["cut", "head", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sort -t, -k6,6 -k1,1n orders.csv | cut -d, -f1,6 | head -n 6"}
+{"id": "checksum-001", "family": "checksum", "families": ["checksum"], "utils": ["sha256sum"], "tags": [], "world": "project", "files": {}, "script": "sha256sum orders.csv"}
+{"id": "checksum-002", "family": "checksum", "families": ["checksum"], "utils": ["shasum"], "tags": [], "world": "project", "files": {}, "script": "shasum -a 256 notes.txt orders.csv"}
+{"id": "checksum-003", "family": "checksum", "families": ["checksum"], "utils": ["shasum"], "tags": [], "world": "project", "files": {}, "script": "shasum notes.txt"}
+{"id": "checksum-004", "family": "checksum", "families": ["checksum"], "utils": ["md5sum"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "md5sum unicode.txt"}
+{"id": "checksum-005", "family": "checksum", "families": ["checksum"], "utils": ["sha256sum"], "tags": ["write"], "world": "project", "files": {}, "script": "sha256sum dup.txt notes.txt > sums.txt && sha256sum -c sums.txt"}
+{"id": "checksum-006", "family": "checksum", "families": ["checksum"], "utils": ["sha1sum"], "tags": [], "world": "project", "files": {}, "script": "sha1sum < notes.txt"}
+{"id": "checksum-007", "family": "checksum", "families": ["checksum", "shell"], "utils": ["echo", "shasum"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "shasum -a 256 missing.txt; echo \"rc=$?\""}
+{"id": "checksum-008", "family": "checksum", "families": ["checksum", "cut-tr"], "utils": ["cut", "sha256sum"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "sha256sum src/*.py | cut -c1-16"}
+{"id": "checksum-009", "family": "checksum", "families": ["checksum"], "utils": ["cksum"], "tags": [], "world": "project", "files": {}, "script": "cksum notes.txt"}
+{"id": "awk-001", "family": "awk", "families": ["awk"], "utils": ["awk"], "tags": [], "world": "project", "files": {}, "script": "awk -F, 'NR > 1 { s += $4 } END { print s }' orders.csv"}
+{"id": "awk-002", "family": "awk", "families": ["awk", "view"], "utils": ["awk", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "awk -F, '{print $2, $3}' orders.csv | head -n 3"}
+{"id": "awk-003", "family": "awk", "families": ["awk"], "utils": ["awk"], "tags": [], "world": "project", "files": {}, "script": "awk '{print length}' dup.txt"}
+{"id": "awk-004", "family": "awk", "families": ["awk", "view"], "utils": ["awk", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "awk 'length > 50' long.txt | head -n 2"}
+{"id": "awk-005", "family": "awk", "families": ["awk"], "utils": ["awk"], "tags": [], "world": "project", "files": {}, "script": "awk -F'\\t' '$3 > 50 {print $1}' scores.tsv"}
+{"id": "awk-006", "family": "awk", "families": ["awk"], "utils": ["awk"], "tags": [], "world": "project", "files": {"pipes.txt": "a|b|c\nd|e|f\n"}, "script": "awk -F'|' '{print $2}' pipes.txt"}
+{"id": "awk-007", "family": "awk", "families": ["awk", "view"], "utils": ["awk", "head"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "awk -F, -v OFS=';' '{$1=$1; print}' orders.csv | head -n 2"}
+{"id": "awk-008", "family": "awk", "families": ["awk"], "utils": ["awk"], "tags": [], "world": "project", "files": {}, "script": "awk -v n=3 'NR<=n' notes.txt"}
+{"id": "awk-009", "family": "awk", "families": ["awk"], "utils": ["awk"], "tags": [], "world": "project", "files": {"padded.txt": "  two  words \nthree  more words\n"}, "script": "awk '{n=split($0, a, \" \"); print n}' padded.txt"}
+{"id": "awk-010", "family": "awk", "families": ["awk"], "utils": ["awk"], "tags": [], "world": "project", "files": {}, "script": "awk -F= '/port/ {gsub(/ /, \"\", $2); print $2}' config.ini"}
+{"id": "awk-011", "family": "awk", "families": ["awk"], "utils": ["awk"], "tags": [], "world": "project", "files": {}, "script": "awk 'END {print NR}' notes.txt"}
+{"id": "awk-012", "family": "awk", "families": ["awk"], "utils": ["awk"], "tags": [], "world": "project", "files": {}, "script": "awk '{s+=$1} END {printf \"%.2f\\n\", s/NR}' nums.txt"}
+{"id": "awk-013", "family": "awk", "families": ["awk", "sort-uniq"], "utils": ["awk", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "awk -F, 'NR>1 {c[$6]++} END {for (r in c) print r, c[r]}' orders.csv | sort"}
+{"id": "jq-001", "family": "jq", "families": ["jq"], "utils": ["jq"], "tags": [], "world": "project", "files": {}, "script": "jq '.[0]' items.json"}
+{"id": "jq-002", "family": "jq", "families": ["jq"], "utils": ["jq"], "tags": [], "world": "project", "files": {}, "script": "jq -r '.[].name' items.json"}
+{"id": "jq-003", "family": "jq", "families": ["jq"], "utils": ["jq"], "tags": [], "world": "project", "files": {}, "script": "jq '.[] | select(.stock > 0) | .id' items.json"}
+{"id": "jq-004", "family": "jq", "families": ["jq"], "utils": ["jq"], "tags": [], "world": "project", "files": {}, "script": "jq 'length' items.json"}
+{"id": "jq-005", "family": "jq", "families": ["jq"], "utils": ["jq"], "tags": [], "world": "project", "files": {}, "script": "jq '[.[].price] | add' items.json"}
+{"id": "jq-006", "family": "jq", "families": ["jq"], "utils": ["jq"], "tags": [], "world": "project", "files": {}, "script": "jq -c 'map({name, n: (.tags | length)})' items.json"}
+{"id": "jq-007", "family": "jq", "families": ["jq"], "utils": ["jq"], "tags": [], "world": "project", "files": {}, "script": "jq '.[1].price' items.json"}
+{"id": "jq-008", "family": "jq", "families": ["jq"], "utils": ["jq"], "tags": [], "world": "project", "files": {}, "script": "jq -r '.[] | \"\\(.id)\\t\\(.name)\"' items.json"}
+{"id": "jq-009", "family": "jq", "families": ["jq", "shell"], "utils": ["echo", "jq"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "jq . config.ini; echo \"rc=$?\""}
+{"id": "find-xargs-001", "family": "find-xargs", "families": ["find-xargs", "sort-uniq"], "utils": ["find", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "find . -name '*.py' | sort"}
+{"id": "find-xargs-002", "family": "find-xargs", "families": ["find-xargs", "sort-uniq"], "utils": ["find", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "find src -type f | sort"}
+{"id": "find-xargs-003", "family": "find-xargs", "families": ["find-xargs", "sort-uniq"], "utils": ["find", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "find src docs -maxdepth 1 -type d | sort"}
+{"id": "find-xargs-004", "family": "find-xargs", "families": ["find-xargs", "sort-uniq"], "utils": ["find", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "find docs -type l | sort"}
+{"id": "find-xargs-005", "family": "find-xargs", "families": ["find-xargs", "sort-uniq"], "utils": ["find", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "find . -empty -print | sort"}
+{"id": "find-xargs-006", "family": "find-xargs", "families": ["find-xargs", "grep", "sort-uniq"], "utils": ["find", "grep", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "find src -name '*.py' -exec grep -l TODO {} \\; | sort"}
+{"id": "find-xargs-007", "family": "find-xargs", "families": ["find-xargs", "grep", "sort-uniq"], "utils": ["find", "grep", "sort", "xargs"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "find . -name '*.py' | sort | xargs grep -c def"}
+{"id": "find-xargs-008", "family": "find-xargs", "families": ["find-xargs", "shell"], "utils": ["echo", "printf", "xargs"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "printf '%s\\n' a b c | xargs -n1 echo item"}
+{"id": "find-xargs-009", "family": "find-xargs", "families": ["find-xargs", "shell"], "utils": ["echo", "printf", "xargs"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "printf '%s\\n' notes.txt README.md | xargs -I{} echo 'file: {}'"}
+{"id": "find-xargs-010", "family": "find-xargs", "families": ["find-xargs", "sort-uniq"], "utils": ["find", "sort"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "find . -size +1k -type f | sort"}
+{"id": "find-xargs-011", "family": "find-xargs", "families": ["find-xargs"], "utils": ["find"], "tags": [], "world": "project", "files": {}, "script": "find . -path ./src -prune -o -name '*.py' -print"}
+{"id": "diff-bytes-001", "family": "diff-bytes", "families": ["diff-bytes", "shell"], "utils": ["diff", "echo"], "tags": [], "world": "project", "files": {}, "script": "diff notes.txt notes.txt && echo same"}
+{"id": "diff-bytes-002", "family": "diff-bytes", "families": ["diff-bytes", "shell"], "utils": ["diff", "echo"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "diff dup.txt words.txt; echo \"rc=$?\""}
+{"id": "diff-bytes-003", "family": "diff-bytes", "families": ["diff-bytes"], "utils": ["diff"], "tags": [], "world": "project", "files": {"a.txt": "one\ntwo\nthree\n", "b.txt": "one\n2\nthree\nfour\n"}, "script": "diff -u a.txt b.txt"}
+{"id": "diff-bytes-004", "family": "diff-bytes", "families": ["diff-bytes", "shell"], "utils": ["cmp", "echo"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "cmp notes.txt README.md; echo \"rc=$?\""}
+{"id": "diff-bytes-005", "family": "diff-bytes", "families": ["diff-bytes"], "utils": ["od"], "tags": ["non-ascii"], "world": "project", "files": {}, "script": "od -c crlf.txt"}
+{"id": "diff-bytes-006", "family": "diff-bytes", "families": ["diff-bytes", "view"], "utils": ["head", "od"], "tags": ["non-ascii", "pipeline"], "world": "project", "files": {}, "script": "od -An -tx1 unicode.txt | head -n 2"}
+{"id": "diff-bytes-007", "family": "diff-bytes", "families": ["diff-bytes", "view"], "utils": ["head", "xxd"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "xxd noeol.txt | head -n 2"}
+{"id": "diff-bytes-008", "family": "diff-bytes", "families": ["diff-bytes"], "utils": ["base64"], "tags": [], "world": "project", "files": {}, "script": "base64 noeol.txt"}
+{"id": "diff-bytes-009", "family": "diff-bytes", "families": ["diff-bytes", "shell"], "utils": ["base64", "echo"], "tags": ["pipeline"], "world": "project", "files": {}, "script": "echo aGVsbG8K | base64 -d"}
+{"id": "diff-bytes-010", "family": "diff-bytes", "families": ["diff-bytes", "view"], "utils": ["head", "od"], "tags": ["non-ascii", "pipeline"], "world": "project", "files": {}, "script": "od -t x1 bin.dat | head -n 3"}
+{"id": "shell-001", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "echo \"$HOME\" \"$PWD\""}
+{"id": "shell-002", "family": "shell", "families": ["shell"], "utils": ["cd", "pwd"], "tags": ["write"], "world": "project", "files": {}, "script": "pwd; cd src && pwd; cd - > /dev/null; pwd"}
+{"id": "shell-003", "family": "shell", "families": ["shell"], "utils": ["cd", "echo"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "cd missing; echo \"rc=$?\""}
+{"id": "shell-004", "family": "shell", "families": ["ls-stat", "shell"], "utils": ["echo", "ls"], "tags": ["exit-status", "missing-path", "write"], "world": "project", "files": {}, "script": "echo hi > nodir/x.txt; echo \"rc=$?\"; ls nodir"}
+{"id": "shell-005", "family": "shell", "families": ["shell"], "utils": ["echo", "set"], "tags": ["set-u"], "world": "project", "files": {}, "script": "set -u; echo \"${UNSET_VAR}\"; echo after"}
+{"id": "shell-006", "family": "shell", "families": ["shell"], "utils": ["echo", "set"], "tags": ["set-u"], "world": "project", "files": {}, "script": "set -u; x=\"${MAYBE:-default}\"; echo \"$x\""}
+{"id": "shell-007", "family": "shell", "families": ["shell"], "utils": ["echo", "false", "set"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "set -e; false; echo not-reached"}
+{"id": "shell-008", "family": "shell", "families": ["shell", "view"], "utils": ["cat", "echo", "false"], "tags": ["exit-status", "pipeline"], "world": "project", "files": {}, "script": "false | cat; echo \"rc=$?\""}
+{"id": "shell-009", "family": "shell", "families": ["shell", "view"], "utils": ["cat", "echo", "false", "set", "true"], "tags": ["exit-status", "pipeline"], "world": "project", "files": {}, "script": "set -o pipefail; true | false | cat; echo \"rc=$?\""}
+{"id": "shell-010", "family": "shell", "families": ["shell"], "utils": ["echo", "false", "true"], "tags": ["exit-status", "pipeline"], "world": "project", "files": {}, "script": "true | false | true; echo \"${PIPESTATUS[@]}\""}
+{"id": "shell-011", "family": "shell", "families": ["grep", "shell"], "utils": ["echo", "grep"], "tags": [], "world": "project", "files": {}, "script": "grep -q nomatch notes.txt || echo \"no match\""}
+{"id": "shell-012", "family": "shell", "families": ["shell"], "utils": ["[", "echo"], "tags": [], "world": "project", "files": {}, "script": "[ -f orders.csv ] && echo file; [ -d src ] && echo dir; [ -x scripts/build.sh ] && echo exec"}
+{"id": "shell-013", "family": "shell", "families": ["shell"], "utils": ["echo", "test"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "test -s blank.txt; echo \"rc=$?\""}
+{"id": "shell-014", "family": "shell", "families": ["shell"], "utils": ["[", "echo"], "tags": ["symlink"], "world": "project", "files": {}, "script": "[ -L docs/latest.md ] && echo link; [ -e docs/old.md ] || echo dangling"}
+{"id": "shell-015", "family": "shell", "families": ["shell"], "utils": ["printf"], "tags": [], "world": "project", "files": {}, "script": "for f in *.txt; do printf '<%s>\\n' \"$f\"; done"}
+{"id": "shell-016", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "for d in */; do echo \"$d\"; done"}
+{"id": "shell-017", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "echo src/*.py"}
+{"id": "shell-018", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "echo *.nomatch"}
+{"id": "shell-019", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "shopt -s nullglob && echo start *.nomatch end"}
+{"id": "shell-020", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "x=5; y=$((x * 3 + 1)); echo $y"}
+{"id": "shell-021", "family": "shell", "families": ["shell"], "utils": ["printf"], "tags": [], "world": "project", "files": {}, "script": "printf '%-8s|%5.2f|%03d\\n' kelp 2.5 7"}
+{"id": "shell-022", "family": "shell", "families": ["shell"], "utils": ["printf"], "tags": [], "world": "project", "files": {}, "script": "printf '%s\\n' \"a b\" c"}
+{"id": "shell-023", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "echo -e 'tab\\there'"}
+{"id": "shell-024", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "echo -n no-newline; echo"}
+{"id": "shell-025", "family": "shell", "families": ["shell"], "utils": ["echo", "read"], "tags": ["herestring"], "world": "project", "files": {}, "script": "var=\"a,b,c\"; IFS=, read -r one two three <<< \"$var\"; echo \"$two\""}
+{"id": "shell-026", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "arr=(x y z); echo \"${#arr[@]} ${arr[1]}\""}
+{"id": "shell-027", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "s=\"Hello World\"; echo \"${s,,} ${s^^} ${s:0:5} ${#s}\""}
+{"id": "shell-028", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "f=src/web/routes.js; echo \"${f##*/} ${f%.*} ${f#src/}\""}
+{"id": "shell-029", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "case \"notes.txt\" in *.txt) echo text;; *) echo other;; esac"}
+{"id": "shell-030", "family": "shell", "families": ["grep", "shell"], "utils": ["echo", "grep"], "tags": [], "world": "project", "files": {}, "script": "if grep -q TODO src/app.py; then echo has; else echo none; fi"}
+{"id": "shell-031", "family": "shell", "families": ["shell"], "utils": ["echo", "read"], "tags": [], "world": "project", "files": {}, "script": "count=0; while IFS= read -r row; do count=$((count+1)); done < dup.txt; echo \"$count\""}
+{"id": "shell-032", "family": "shell", "families": ["shell"], "utils": ["echo", "local"], "tags": [], "world": "project", "files": {}, "script": "f() { local v=inner; echo \"$v $1\"; }; f arg; echo \"${v:-unset}\""}
+{"id": "shell-033", "family": "shell", "families": ["shell"], "utils": ["seq"], "tags": [], "world": "project", "files": {}, "script": "seq 3; seq 2 2 9"}
+{"id": "shell-034", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "echo $(( 7 / 2 )) $(( -7 % 3 ))"}
+{"id": "shell-035", "family": "shell", "families": ["shell", "view"], "utils": ["echo", "head"], "tags": [], "world": "project", "files": {}, "script": "out=$(head -n 1 notes.txt); echo \"[$out]\""}
+{"id": "shell-036", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "{ echo a; echo b >&2; } 2> /dev/null"}
+{"id": "shell-037", "family": "shell", "families": ["fileops", "shell", "view"], "utils": ["echo", "tail", "tee"], "tags": ["pipeline", "write"], "world": "project", "files": {}, "script": "echo line | tee -a notes.txt > /dev/null; tail -n 1 notes.txt"}
+{"id": "shell-038", "family": "shell", "families": ["shell"], "utils": ["echo", "trap"], "tags": [], "world": "project", "files": {}, "script": "trap 'echo bye' EXIT; echo hi"}
+{"id": "shell-039", "family": "shell", "families": ["shell"], "utils": ["echo", "exit"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "(exit 3); echo \"rc=$?\""}
+{"id": "shell-040", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": ["exit-status"], "world": "project", "files": {}, "script": "scripts/check.sh; echo \"rc=$?\""}
+{"id": "shell-041", "family": "shell", "families": ["shell"], "utils": ["date"], "tags": [], "world": "project", "files": {}, "script": "date -u -d '2026-01-02 03:04:05' '+%Y-%m-%d %H:%M'"}
+{"id": "shell-042", "family": "shell", "families": ["shell"], "utils": ["expr"], "tags": [], "world": "project", "files": {}, "script": "expr 3 + 4"}
+{"id": "shell-043", "family": "shell", "families": ["shell", "wc"], "utils": ["echo", "wc"], "tags": ["non-ascii", "pipeline"], "world": "project", "files": {}, "script": "echo 'é' | wc -c"}
+{"id": "shell-044", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "echo {1..3} {a,b}x"}
+{"id": "shell-045", "family": "shell", "families": ["diff-bytes", "shell"], "utils": ["od", "printf"], "tags": ["non-ascii", "write"], "world": "project", "files": {}, "script": "printf 'caf\\303\\251\\n' > p.txt; od -An -tx1 p.txt"}
+{"id": "shell-046", "family": "shell", "families": ["shell", "view"], "utils": ["cat", "echo"], "tags": ["write"], "world": "project", "files": {}, "script": "echo first > o.txt; echo second >> o.txt; cat o.txt"}
+{"id": "shell-047", "family": "shell", "families": ["shell", "view"], "utils": ["cat", "echo"], "tags": ["write"], "world": "project", "files": {}, "script": "cat notes.txt > /dev/null 2>&1 && echo ok"}
+{"id": "shell-048", "family": "shell", "families": ["ls-stat", "shell", "wc"], "utils": ["echo", "ls", "wc"], "tags": ["exit-status", "missing-path"], "world": "project", "files": {}, "script": "ls missing 2> err.txt; echo \"rc=$?\"; wc -l < err.txt"}
+{"id": "shell-049", "family": "shell", "families": ["shell"], "utils": ["echo", "printf"], "tags": [], "world": "project", "files": {}, "script": "x=$(printf 'a\\n\\n\\n'); echo \"[${x}]\""}
+{"id": "shell-050", "family": "shell", "families": ["shell"], "utils": ["[", "echo"], "tags": [], "world": "project", "files": {}, "script": "for i in 1 2 3; do [ \"$i\" = 2 ] && continue; echo \"$i\"; done"}
+{"id": "shell-051", "family": "shell", "families": ["shell"], "utils": ["echo"], "tags": [], "world": "project", "files": {}, "script": "echo \"${#PWD}\"; echo ~"}

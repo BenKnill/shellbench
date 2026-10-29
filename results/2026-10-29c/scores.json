@@ -1,0 +1,1184 @@
+{
+ "cases": 351,
+ "scored": 351,
+ "nondeterministic": [],
+ "oracle_unusable": [],
+ "subjects": {
+  "cf-computer-workerd-071b2b2": {
+   "version": "computer@071b2b2 (packages/computer 0.8.0) worker-shell in local workerd via @cloudflare/vitest-pool-workers + just-bash@3.2.0 [groups: core+jq+curl]",
+   "classes": {
+    "match": 241,
+    "error-text": 6,
+    "formatting": 14,
+    "loud-unsupported": 19,
+    "loud-wrong": 14,
+    "silent-wrong": 57
+   },
+   "match_pct": 68.7,
+   "match_or_errtext_pct": 70.4,
+   "match_errtext_formatting_pct": 74.4,
+   "silent_wrong": 57,
+   "silent_wrong_pct": 16.2,
+   "silent_exit0": 54,
+   "families": {
+    "view": {
+     "n": 100,
+     "match": 77,
+     "error-text": 2,
+     "formatting": 4,
+     "loud-unsupported": 1,
+     "loud-wrong": 5,
+     "silent-wrong": 11,
+     "match_pct": 77.0,
+     "silent_pct": 11.0
+    },
+    "sed": {
+     "n": 43,
+     "match": 32,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 2,
+     "loud-wrong": 3,
+     "silent-wrong": 5,
+     "match_pct": 74.4,
+     "silent_pct": 11.6
+    },
+    "grep": {
+     "n": 44,
+     "match": 25,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 14,
+     "match_pct": 56.8,
+     "silent_pct": 31.8
+    },
+    "rg": {
+     "n": 23,
+     "match": 19,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 3,
+     "match_pct": 82.6,
+     "silent_pct": 13.0
+    },
+    "ls-stat": {
+     "n": 35,
+     "match": 14,
+     "error-text": 1,
+     "formatting": 1,
+     "loud-unsupported": 2,
+     "loud-wrong": 4,
+     "silent-wrong": 13,
+     "match_pct": 40.0,
+     "silent_pct": 37.1
+    },
+    "cut-tr": {
+     "n": 21,
+     "match": 16,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 1,
+     "loud-wrong": 0,
+     "silent-wrong": 3,
+     "match_pct": 76.2,
+     "silent_pct": 14.3
+    },
+    "wc": {
+     "n": 20,
+     "match": 14,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 1,
+     "loud-wrong": 1,
+     "silent-wrong": 2,
+     "match_pct": 70.0,
+     "silent_pct": 10.0
+    },
+    "sort-uniq": {
+     "n": 30,
+     "match": 20,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 1,
+     "loud-wrong": 1,
+     "silent-wrong": 6,
+     "match_pct": 66.7,
+     "silent_pct": 20.0
+    },
+    "checksum": {
+     "n": 9,
+     "match": 5,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 4,
+     "loud-wrong": 0,
+     "silent-wrong": 0,
+     "match_pct": 55.6,
+     "silent_pct": 0.0
+    },
+    "fileops": {
+     "n": 24,
+     "match": 15,
+     "error-text": 1,
+     "formatting": 0,
+     "loud-unsupported": 2,
+     "loud-wrong": 3,
+     "silent-wrong": 3,
+     "match_pct": 62.5,
+     "silent_pct": 12.5
+    },
+    "awk": {
+     "n": 13,
+     "match": 8,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 4,
+     "match_pct": 61.5,
+     "silent_pct": 30.8
+    },
+    "jq": {
+     "n": 9,
+     "match": 7,
+     "error-text": 1,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 1,
+     "match_pct": 77.8,
+     "silent_pct": 11.1
+    },
+    "find-xargs": {
+     "n": 12,
+     "match": 9,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 0,
+     "match_pct": 75.0,
+     "silent_pct": 0.0
+    },
+    "diff-bytes": {
+     "n": 18,
+     "match": 3,
+     "error-text": 0,
+     "formatting": 4,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 8,
+     "match_pct": 16.7,
+     "silent_pct": 44.4
+    },
+    "shell": {
+     "n": 88,
+     "match": 63,
+     "error-text": 6,
+     "formatting": 0,
+     "loud-unsupported": 7,
+     "loud-wrong": 6,
+     "silent-wrong": 6,
+     "match_pct": 71.6,
+     "silent_pct": 6.8
+    }
+   },
+   "tags": {
+    "context": {
+     "n": 10,
+     "match": 4,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 6
+    },
+    "exit-status": {
+     "n": 35,
+     "match": 18,
+     "error-text": 6,
+     "formatting": 0,
+     "loud-unsupported": 3,
+     "loud-wrong": 5,
+     "silent-wrong": 3
+    },
+    "heredoc": {
+     "n": 8,
+     "match": 4,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 3
+    },
+    "herestring": {
+     "n": 1,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 0
+    },
+    "host-fs": {
+     "n": 7,
+     "match": 0,
+     "error-text": 0,
+     "formatting": 3,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 4
+    },
+    "in-place": {
+     "n": 2,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 1,
+     "loud-wrong": 0,
+     "silent-wrong": 0
+    },
+    "missing-path": {
+     "n": 15,
+     "match": 5,
+     "error-text": 3,
+     "formatting": 0,
+     "loud-unsupported": 2,
+     "loud-wrong": 4,
+     "silent-wrong": 1
+    },
+    "non-ascii": {
+     "n": 29,
+     "match": 13,
+     "error-text": 0,
+     "formatting": 4,
+     "loud-unsupported": 2,
+     "loud-wrong": 0,
+     "silent-wrong": 10
+    },
+    "pipeline": {
+     "n": 76,
+     "match": 57,
+     "error-text": 0,
+     "formatting": 4,
+     "loud-unsupported": 4,
+     "loud-wrong": 1,
+     "silent-wrong": 10
+    },
+    "set-u": {
+     "n": 2,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 0
+    },
+    "symlink": {
+     "n": 9,
+     "match": 6,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 1,
+     "loud-wrong": 1,
+     "silent-wrong": 1
+    },
+    "write": {
+     "n": 18,
+     "match": 11,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 2,
+     "silent-wrong": 5
+    }
+   }
+  },
+  "jb-3.2.0": {
+   "version": "just-bash@3.2.0 (npm) bundle-sha256:44cf67b1419905c4",
+   "classes": {
+    "match": 242,
+    "error-text": 6,
+    "formatting": 15,
+    "loud-unsupported": 19,
+    "loud-wrong": 11,
+    "silent-wrong": 58
+   },
+   "match_pct": 68.9,
+   "match_or_errtext_pct": 70.7,
+   "match_errtext_formatting_pct": 74.9,
+   "silent_wrong": 58,
+   "silent_wrong_pct": 16.5,
+   "silent_exit0": 55,
+   "families": {
+    "view": {
+     "n": 100,
+     "match": 78,
+     "error-text": 2,
+     "formatting": 5,
+     "loud-unsupported": 1,
+     "loud-wrong": 3,
+     "silent-wrong": 11,
+     "match_pct": 78.0,
+     "silent_pct": 11.0
+    },
+    "sed": {
+     "n": 43,
+     "match": 32,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 2,
+     "loud-wrong": 3,
+     "silent-wrong": 5,
+     "match_pct": 74.4,
+     "silent_pct": 11.6
+    },
+    "grep": {
+     "n": 44,
+     "match": 25,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 14,
+     "match_pct": 56.8,
+     "silent_pct": 31.8
+    },
+    "rg": {
+     "n": 23,
+     "match": 19,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 3,
+     "match_pct": 82.6,
+     "silent_pct": 13.0
+    },
+    "ls-stat": {
+     "n": 35,
+     "match": 15,
+     "error-text": 1,
+     "formatting": 1,
+     "loud-unsupported": 2,
+     "loud-wrong": 1,
+     "silent-wrong": 15,
+     "match_pct": 42.9,
+     "silent_pct": 42.9
+    },
+    "cut-tr": {
+     "n": 21,
+     "match": 16,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 1,
+     "loud-wrong": 0,
+     "silent-wrong": 3,
+     "match_pct": 76.2,
+     "silent_pct": 14.3
+    },
+    "wc": {
+     "n": 20,
+     "match": 15,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 1,
+     "loud-wrong": 1,
+     "silent-wrong": 1,
+     "match_pct": 75.0,
+     "silent_pct": 5.0
+    },
+    "sort-uniq": {
+     "n": 30,
+     "match": 20,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 1,
+     "loud-wrong": 1,
+     "silent-wrong": 6,
+     "match_pct": 66.7,
+     "silent_pct": 20.0
+    },
+    "checksum": {
+     "n": 9,
+     "match": 5,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 4,
+     "loud-wrong": 0,
+     "silent-wrong": 0,
+     "match_pct": 55.6,
+     "silent_pct": 0.0
+    },
+    "fileops": {
+     "n": 24,
+     "match": 15,
+     "error-text": 1,
+     "formatting": 0,
+     "loud-unsupported": 2,
+     "loud-wrong": 2,
+     "silent-wrong": 4,
+     "match_pct": 62.5,
+     "silent_pct": 16.7
+    },
+    "awk": {
+     "n": 13,
+     "match": 8,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 4,
+     "match_pct": 61.5,
+     "silent_pct": 30.8
+    },
+    "jq": {
+     "n": 9,
+     "match": 7,
+     "error-text": 1,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 1,
+     "match_pct": 77.8,
+     "silent_pct": 11.1
+    },
+    "find-xargs": {
+     "n": 12,
+     "match": 9,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 0,
+     "match_pct": 75.0,
+     "silent_pct": 0.0
+    },
+    "diff-bytes": {
+     "n": 18,
+     "match": 3,
+     "error-text": 0,
+     "formatting": 5,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 7,
+     "match_pct": 16.7,
+     "silent_pct": 38.9
+    },
+    "shell": {
+     "n": 88,
+     "match": 61,
+     "error-text": 6,
+     "formatting": 1,
+     "loud-unsupported": 7,
+     "loud-wrong": 5,
+     "silent-wrong": 8,
+     "match_pct": 69.3,
+     "silent_pct": 9.1
+    }
+   },
+   "tags": {
+    "context": {
+     "n": 10,
+     "match": 4,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 6
+    },
+    "exit-status": {
+     "n": 35,
+     "match": 18,
+     "error-text": 6,
+     "formatting": 0,
+     "loud-unsupported": 3,
+     "loud-wrong": 3,
+     "silent-wrong": 5
+    },
+    "heredoc": {
+     "n": 8,
+     "match": 5,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 2
+    },
+    "herestring": {
+     "n": 1,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 0
+    },
+    "host-fs": {
+     "n": 7,
+     "match": 0,
+     "error-text": 0,
+     "formatting": 3,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 4
+    },
+    "in-place": {
+     "n": 2,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 1,
+     "loud-wrong": 0,
+     "silent-wrong": 0
+    },
+    "missing-path": {
+     "n": 15,
+     "match": 5,
+     "error-text": 3,
+     "formatting": 0,
+     "loud-unsupported": 2,
+     "loud-wrong": 2,
+     "silent-wrong": 3
+    },
+    "non-ascii": {
+     "n": 29,
+     "match": 14,
+     "error-text": 0,
+     "formatting": 5,
+     "loud-unsupported": 2,
+     "loud-wrong": 0,
+     "silent-wrong": 8
+    },
+    "pipeline": {
+     "n": 76,
+     "match": 57,
+     "error-text": 0,
+     "formatting": 4,
+     "loud-unsupported": 4,
+     "loud-wrong": 1,
+     "silent-wrong": 10
+    },
+    "set-u": {
+     "n": 2,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 0
+    },
+    "symlink": {
+     "n": 9,
+     "match": 4,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 1,
+     "loud-wrong": 2,
+     "silent-wrong": 2
+    },
+    "write": {
+     "n": 18,
+     "match": 10,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 6
+    }
+   }
+  },
+  "jb-main-7a2a7a57": {
+   "version": "just-bash@3.6.0 git 7a2a7a57 bundle-sha256:36651a9caf5f9d4d",
+   "classes": {
+    "match": 253,
+    "error-text": 6,
+    "formatting": 15,
+    "loud-unsupported": 19,
+    "loud-wrong": 11,
+    "silent-wrong": 47
+   },
+   "match_pct": 72.1,
+   "match_or_errtext_pct": 73.8,
+   "match_errtext_formatting_pct": 78.1,
+   "silent_wrong": 47,
+   "silent_wrong_pct": 13.4,
+   "silent_exit0": 45,
+   "families": {
+    "view": {
+     "n": 100,
+     "match": 79,
+     "error-text": 2,
+     "formatting": 5,
+     "loud-unsupported": 1,
+     "loud-wrong": 3,
+     "silent-wrong": 10,
+     "match_pct": 79.0,
+     "silent_pct": 10.0
+    },
+    "sed": {
+     "n": 43,
+     "match": 32,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 2,
+     "loud-wrong": 3,
+     "silent-wrong": 5,
+     "match_pct": 74.4,
+     "silent_pct": 11.6
+    },
+    "grep": {
+     "n": 44,
+     "match": 31,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 8,
+     "match_pct": 70.5,
+     "silent_pct": 18.2
+    },
+    "rg": {
+     "n": 23,
+     "match": 20,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 2,
+     "match_pct": 87.0,
+     "silent_pct": 8.7
+    },
+    "ls-stat": {
+     "n": 35,
+     "match": 18,
+     "error-text": 1,
+     "formatting": 1,
+     "loud-unsupported": 2,
+     "loud-wrong": 1,
+     "silent-wrong": 12,
+     "match_pct": 51.4,
+     "silent_pct": 34.3
+    },
+    "cut-tr": {
+     "n": 21,
+     "match": 16,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 1,
+     "loud-wrong": 0,
+     "silent-wrong": 3,
+     "match_pct": 76.2,
+     "silent_pct": 14.3
+    },
+    "wc": {
+     "n": 20,
+     "match": 15,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 1,
+     "loud-wrong": 1,
+     "silent-wrong": 1,
+     "match_pct": 75.0,
+     "silent_pct": 5.0
+    },
+    "sort-uniq": {
+     "n": 30,
+     "match": 20,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 1,
+     "loud-wrong": 1,
+     "silent-wrong": 6,
+     "match_pct": 66.7,
+     "silent_pct": 20.0
+    },
+    "checksum": {
+     "n": 9,
+     "match": 5,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 4,
+     "loud-wrong": 0,
+     "silent-wrong": 0,
+     "match_pct": 55.6,
+     "silent_pct": 0.0
+    },
+    "fileops": {
+     "n": 24,
+     "match": 16,
+     "error-text": 1,
+     "formatting": 0,
+     "loud-unsupported": 2,
+     "loud-wrong": 2,
+     "silent-wrong": 3,
+     "match_pct": 66.7,
+     "silent_pct": 12.5
+    },
+    "awk": {
+     "n": 13,
+     "match": 8,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 4,
+     "match_pct": 61.5,
+     "silent_pct": 30.8
+    },
+    "jq": {
+     "n": 9,
+     "match": 7,
+     "error-text": 1,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 1,
+     "match_pct": 77.8,
+     "silent_pct": 11.1
+    },
+    "find-xargs": {
+     "n": 12,
+     "match": 9,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 0,
+     "match_pct": 75.0,
+     "silent_pct": 0.0
+    },
+    "diff-bytes": {
+     "n": 18,
+     "match": 4,
+     "error-text": 0,
+     "formatting": 5,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 6,
+     "match_pct": 22.2,
+     "silent_pct": 33.3
+    },
+    "shell": {
+     "n": 88,
+     "match": 62,
+     "error-text": 6,
+     "formatting": 1,
+     "loud-unsupported": 7,
+     "loud-wrong": 5,
+     "silent-wrong": 7,
+     "match_pct": 70.5,
+     "silent_pct": 8.0
+    }
+   },
+   "tags": {
+    "context": {
+     "n": 10,
+     "match": 8,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 2
+    },
+    "exit-status": {
+     "n": 35,
+     "match": 19,
+     "error-text": 6,
+     "formatting": 0,
+     "loud-unsupported": 3,
+     "loud-wrong": 3,
+     "silent-wrong": 4
+    },
+    "heredoc": {
+     "n": 8,
+     "match": 5,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 2
+    },
+    "herestring": {
+     "n": 1,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 0
+    },
+    "host-fs": {
+     "n": 7,
+     "match": 0,
+     "error-text": 0,
+     "formatting": 3,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 4
+    },
+    "in-place": {
+     "n": 2,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 1,
+     "loud-wrong": 0,
+     "silent-wrong": 0
+    },
+    "missing-path": {
+     "n": 15,
+     "match": 5,
+     "error-text": 3,
+     "formatting": 0,
+     "loud-unsupported": 2,
+     "loud-wrong": 2,
+     "silent-wrong": 3
+    },
+    "non-ascii": {
+     "n": 29,
+     "match": 14,
+     "error-text": 0,
+     "formatting": 5,
+     "loud-unsupported": 2,
+     "loud-wrong": 0,
+     "silent-wrong": 8
+    },
+    "pipeline": {
+     "n": 76,
+     "match": 58,
+     "error-text": 0,
+     "formatting": 4,
+     "loud-unsupported": 4,
+     "loud-wrong": 1,
+     "silent-wrong": 9
+    },
+    "set-u": {
+     "n": 2,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 0
+    },
+    "symlink": {
+     "n": 9,
+     "match": 4,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 1,
+     "loud-wrong": 2,
+     "silent-wrong": 2
+    },
+    "write": {
+     "n": 18,
+     "match": 10,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 6
+    }
+   }
+  },
+  "jb-npm-3.6.0": {
+   "version": "just-bash@3.6.0 (npm) bundle-sha256:d769656d8dd94d59",
+   "classes": {
+    "match": 248,
+    "error-text": 6,
+    "formatting": 15,
+    "loud-unsupported": 19,
+    "loud-wrong": 11,
+    "silent-wrong": 52
+   },
+   "match_pct": 70.7,
+   "match_or_errtext_pct": 72.4,
+   "match_errtext_formatting_pct": 76.6,
+   "silent_wrong": 52,
+   "silent_wrong_pct": 14.8,
+   "silent_exit0": 50,
+   "families": {
+    "view": {
+     "n": 100,
+     "match": 78,
+     "error-text": 2,
+     "formatting": 5,
+     "loud-unsupported": 1,
+     "loud-wrong": 3,
+     "silent-wrong": 11,
+     "match_pct": 78.0,
+     "silent_pct": 11.0
+    },
+    "sed": {
+     "n": 43,
+     "match": 32,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 2,
+     "loud-wrong": 3,
+     "silent-wrong": 5,
+     "match_pct": 74.4,
+     "silent_pct": 11.6
+    },
+    "grep": {
+     "n": 44,
+     "match": 27,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 12,
+     "match_pct": 61.4,
+     "silent_pct": 27.3
+    },
+    "rg": {
+     "n": 23,
+     "match": 19,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 3,
+     "match_pct": 82.6,
+     "silent_pct": 13.0
+    },
+    "ls-stat": {
+     "n": 35,
+     "match": 18,
+     "error-text": 1,
+     "formatting": 1,
+     "loud-unsupported": 2,
+     "loud-wrong": 1,
+     "silent-wrong": 12,
+     "match_pct": 51.4,
+     "silent_pct": 34.3
+    },
+    "cut-tr": {
+     "n": 21,
+     "match": 16,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 1,
+     "loud-wrong": 0,
+     "silent-wrong": 3,
+     "match_pct": 76.2,
+     "silent_pct": 14.3
+    },
+    "wc": {
+     "n": 20,
+     "match": 15,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 1,
+     "loud-wrong": 1,
+     "silent-wrong": 1,
+     "match_pct": 75.0,
+     "silent_pct": 5.0
+    },
+    "sort-uniq": {
+     "n": 30,
+     "match": 20,
+     "error-text": 0,
+     "formatting": 2,
+     "loud-unsupported": 1,
+     "loud-wrong": 1,
+     "silent-wrong": 6,
+     "match_pct": 66.7,
+     "silent_pct": 20.0
+    },
+    "checksum": {
+     "n": 9,
+     "match": 5,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 4,
+     "loud-wrong": 0,
+     "silent-wrong": 0,
+     "match_pct": 55.6,
+     "silent_pct": 0.0
+    },
+    "fileops": {
+     "n": 24,
+     "match": 16,
+     "error-text": 1,
+     "formatting": 0,
+     "loud-unsupported": 2,
+     "loud-wrong": 2,
+     "silent-wrong": 3,
+     "match_pct": 66.7,
+     "silent_pct": 12.5
+    },
+    "awk": {
+     "n": 13,
+     "match": 8,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 4,
+     "match_pct": 61.5,
+     "silent_pct": 30.8
+    },
+    "jq": {
+     "n": 9,
+     "match": 7,
+     "error-text": 1,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 1,
+     "match_pct": 77.8,
+     "silent_pct": 11.1
+    },
+    "find-xargs": {
+     "n": 12,
+     "match": 9,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 0,
+     "match_pct": 75.0,
+     "silent_pct": 0.0
+    },
+    "diff-bytes": {
+     "n": 18,
+     "match": 4,
+     "error-text": 0,
+     "formatting": 5,
+     "loud-unsupported": 3,
+     "loud-wrong": 0,
+     "silent-wrong": 6,
+     "match_pct": 22.2,
+     "silent_pct": 33.3
+    },
+    "shell": {
+     "n": 88,
+     "match": 62,
+     "error-text": 6,
+     "formatting": 1,
+     "loud-unsupported": 7,
+     "loud-wrong": 5,
+     "silent-wrong": 7,
+     "match_pct": 70.5,
+     "silent_pct": 8.0
+    }
+   },
+   "tags": {
+    "context": {
+     "n": 10,
+     "match": 4,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 6
+    },
+    "exit-status": {
+     "n": 35,
+     "match": 19,
+     "error-text": 6,
+     "formatting": 0,
+     "loud-unsupported": 3,
+     "loud-wrong": 3,
+     "silent-wrong": 4
+    },
+    "heredoc": {
+     "n": 8,
+     "match": 5,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 2
+    },
+    "herestring": {
+     "n": 1,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 0
+    },
+    "host-fs": {
+     "n": 7,
+     "match": 0,
+     "error-text": 0,
+     "formatting": 3,
+     "loud-unsupported": 0,
+     "loud-wrong": 0,
+     "silent-wrong": 4
+    },
+    "in-place": {
+     "n": 2,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 1,
+     "loud-wrong": 0,
+     "silent-wrong": 0
+    },
+    "missing-path": {
+     "n": 15,
+     "match": 5,
+     "error-text": 3,
+     "formatting": 0,
+     "loud-unsupported": 2,
+     "loud-wrong": 2,
+     "silent-wrong": 3
+    },
+    "non-ascii": {
+     "n": 29,
+     "match": 14,
+     "error-text": 0,
+     "formatting": 5,
+     "loud-unsupported": 2,
+     "loud-wrong": 0,
+     "silent-wrong": 8
+    },
+    "pipeline": {
+     "n": 76,
+     "match": 57,
+     "error-text": 0,
+     "formatting": 4,
+     "loud-unsupported": 4,
+     "loud-wrong": 1,
+     "silent-wrong": 10
+    },
+    "set-u": {
+     "n": 2,
+     "match": 1,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 0
+    },
+    "symlink": {
+     "n": 9,
+     "match": 4,
+     "error-text": 0,
+     "formatting": 0,
+     "loud-unsupported": 1,
+     "loud-wrong": 2,
+     "silent-wrong": 2
+    },
+    "write": {
+     "n": 18,
+     "match": 10,
+     "error-text": 0,
+     "formatting": 1,
+     "loud-unsupported": 0,
+     "loud-wrong": 1,
+     "silent-wrong": 6
+    }
+   }
+  }
+ }
+}

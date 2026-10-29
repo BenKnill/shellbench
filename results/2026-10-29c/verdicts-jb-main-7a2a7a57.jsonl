@@ -1,0 +1,351 @@
+{"id": "view-001", "cls": "match", "why": null, "what": []}
+{"id": "view-002", "cls": "match", "why": null, "what": []}
+{"id": "view-003", "cls": "match", "why": null, "what": []}
+{"id": "view-004", "cls": "match", "why": null, "what": []}
+{"id": "view-005", "cls": "match", "why": null, "what": []}
+{"id": "view-006", "cls": "match", "why": null, "what": []}
+{"id": "view-007", "cls": "match", "why": null, "what": []}
+{"id": "view-008", "cls": "match", "why": null, "what": []}
+{"id": "view-009", "cls": "match", "why": null, "what": []}
+{"id": "view-010", "cls": "match", "why": null, "what": []}
+{"id": "view-011", "cls": "match", "why": null, "what": []}
+{"id": "view-012", "cls": "match", "why": null, "what": []}
+{"id": "view-013", "cls": "match", "why": null, "what": []}
+{"id": "view-014", "cls": "error-text", "why": null, "what": ["stderr"]}
+{"id": "view-015", "cls": "match", "why": null, "what": []}
+{"id": "view-016", "cls": "match", "why": null, "what": []}
+{"id": "view-017", "cls": "match", "why": null, "what": []}
+{"id": "view-018", "cls": "match", "why": null, "what": []}
+{"id": "view-019", "cls": "match", "why": null, "what": []}
+{"id": "view-020", "cls": "loud-wrong", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "view-021", "cls": "match", "why": null, "what": []}
+{"id": "view-022", "cls": "match", "why": null, "what": []}
+{"id": "view-023", "cls": "match", "why": null, "what": []}
+{"id": "view-024", "cls": "error-text", "why": null, "what": ["stderr"]}
+{"id": "view-025", "cls": "match", "why": null, "what": []}
+{"id": "view-026", "cls": "loud-wrong", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "view-027", "cls": "match", "why": null, "what": []}
+{"id": "view-028", "cls": "match", "why": null, "what": []}
+{"id": "view-029", "cls": "match", "why": null, "what": []}
+{"id": "view-030", "cls": "match", "why": null, "what": []}
+{"id": "view-031", "cls": "match", "why": null, "what": []}
+{"id": "view-032", "cls": "match", "why": null, "what": []}
+{"id": "view-033", "cls": "match", "why": null, "what": []}
+{"id": "view-034", "cls": "match", "why": null, "what": []}
+{"id": "view-035", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "view-036", "cls": "match", "why": null, "what": []}
+{"id": "view-037", "cls": "match", "why": null, "what": []}
+{"id": "view-038", "cls": "match", "why": null, "what": []}
+{"id": "view-039", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "view-040", "cls": "match", "why": null, "what": []}
+{"id": "view-041", "cls": "match", "why": null, "what": []}
+{"id": "view-042", "cls": "match", "why": null, "what": []}
+{"id": "view-043", "cls": "match", "why": null, "what": []}
+{"id": "view-044", "cls": "match", "why": null, "what": []}
+{"id": "view-045", "cls": "match", "why": null, "what": []}
+{"id": "view-046", "cls": "match", "why": null, "what": []}
+{"id": "view-047", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "view-048", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "view-049", "cls": "match", "why": null, "what": []}
+{"id": "view-050", "cls": "silent-wrong", "why": null, "what": ["stdout", "exit", "files", "stderr"]}
+{"id": "view-051", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "view-052", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "view-053", "cls": "match", "why": null, "what": []}
+{"id": "view-054", "cls": "match", "why": null, "what": []}
+{"id": "view-055", "cls": "match", "why": null, "what": []}
+{"id": "sed-001", "cls": "match", "why": null, "what": []}
+{"id": "sed-002", "cls": "match", "why": null, "what": []}
+{"id": "sed-003", "cls": "match", "why": null, "what": []}
+{"id": "sed-004", "cls": "match", "why": null, "what": []}
+{"id": "sed-005", "cls": "match", "why": null, "what": []}
+{"id": "sed-006", "cls": "match", "why": null, "what": []}
+{"id": "sed-007", "cls": "match", "why": null, "what": []}
+{"id": "sed-008", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "sed-009", "cls": "match", "why": null, "what": []}
+{"id": "sed-010", "cls": "match", "why": null, "what": []}
+{"id": "sed-011", "cls": "match", "why": null, "what": []}
+{"id": "sed-012", "cls": "match", "why": null, "what": []}
+{"id": "sed-013", "cls": "match", "why": null, "what": []}
+{"id": "sed-014", "cls": "match", "why": null, "what": []}
+{"id": "sed-015", "cls": "match", "why": null, "what": []}
+{"id": "sed-016", "cls": "match", "why": null, "what": []}
+{"id": "sed-017", "cls": "match", "why": null, "what": []}
+{"id": "sed-018", "cls": "match", "why": null, "what": []}
+{"id": "sed-019", "cls": "match", "why": null, "what": []}
+{"id": "sed-020", "cls": "match", "why": null, "what": []}
+{"id": "sed-021", "cls": "match", "why": null, "what": []}
+{"id": "sed-022", "cls": "match", "why": null, "what": []}
+{"id": "sed-023", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "sed-024", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "sed-025", "cls": "match", "why": null, "what": []}
+{"id": "sed-026", "cls": "match", "why": null, "what": []}
+{"id": "sed-027", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "files", "stderr"]}
+{"id": "sed-028", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "sed-029", "cls": "match", "why": null, "what": []}
+{"id": "sed-030", "cls": "match", "why": null, "what": []}
+{"id": "sed-031", "cls": "match", "why": null, "what": []}
+{"id": "sed-032", "cls": "loud-wrong", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "sed-033", "cls": "match", "why": null, "what": []}
+{"id": "sed-034", "cls": "loud-wrong", "why": "both-fail", "what": ["stdout", "stderr"]}
+{"id": "sed-035", "cls": "loud-wrong", "why": "both-fail", "what": ["stdout", "stderr"]}
+{"id": "sed-036", "cls": "silent-wrong", "why": null, "what": ["stdout", "stderr"]}
+{"id": "sed-037", "cls": "match", "why": null, "what": []}
+{"id": "sed-038", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "sed-039", "cls": "match", "why": null, "what": []}
+{"id": "sed-040", "cls": "match", "why": null, "what": []}
+{"id": "sed-041", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "sed-042", "cls": "match", "why": null, "what": []}
+{"id": "grep-001", "cls": "match", "why": null, "what": []}
+{"id": "grep-002", "cls": "match", "why": null, "what": []}
+{"id": "grep-003", "cls": "match", "why": null, "what": []}
+{"id": "grep-004", "cls": "match", "why": null, "what": []}
+{"id": "grep-005", "cls": "match", "why": null, "what": []}
+{"id": "grep-006", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "grep-007", "cls": "match", "why": null, "what": []}
+{"id": "grep-008", "cls": "match", "why": null, "what": []}
+{"id": "grep-009", "cls": "match", "why": null, "what": []}
+{"id": "grep-010", "cls": "match", "why": null, "what": []}
+{"id": "grep-011", "cls": "match", "why": null, "what": []}
+{"id": "grep-012", "cls": "match", "why": null, "what": []}
+{"id": "grep-013", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "grep-014", "cls": "match", "why": null, "what": []}
+{"id": "grep-015", "cls": "match", "why": null, "what": []}
+{"id": "grep-016", "cls": "match", "why": null, "what": []}
+{"id": "grep-017", "cls": "formatting", "why": "order", "what": ["stdout"]}
+{"id": "grep-018", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "grep-019", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "grep-020", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "grep-021", "cls": "formatting", "why": "order", "what": ["stdout"]}
+{"id": "grep-022", "cls": "silent-wrong", "why": null, "what": ["stdout", "exit"]}
+{"id": "grep-023", "cls": "match", "why": null, "what": []}
+{"id": "grep-024", "cls": "match", "why": null, "what": []}
+{"id": "grep-025", "cls": "match", "why": null, "what": []}
+{"id": "grep-026", "cls": "match", "why": null, "what": []}
+{"id": "grep-027", "cls": "match", "why": null, "what": []}
+{"id": "grep-028", "cls": "loud-unsupported", "why": null, "what": ["stdout", "stderr"]}
+{"id": "grep-029", "cls": "silent-wrong", "why": null, "what": ["stdout", "stderr"]}
+{"id": "grep-030", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "grep-031", "cls": "match", "why": null, "what": []}
+{"id": "grep-032", "cls": "match", "why": null, "what": []}
+{"id": "grep-033", "cls": "match", "why": null, "what": []}
+{"id": "grep-034", "cls": "match", "why": null, "what": []}
+{"id": "grep-035", "cls": "match", "why": null, "what": []}
+{"id": "grep-036", "cls": "match", "why": null, "what": []}
+{"id": "grep-037", "cls": "match", "why": null, "what": []}
+{"id": "grep-038", "cls": "match", "why": null, "what": []}
+{"id": "rg-001", "cls": "match", "why": null, "what": []}
+{"id": "rg-002", "cls": "match", "why": null, "what": []}
+{"id": "rg-003", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "rg-004", "cls": "match", "why": null, "what": []}
+{"id": "rg-005", "cls": "match", "why": null, "what": []}
+{"id": "rg-006", "cls": "match", "why": null, "what": []}
+{"id": "rg-007", "cls": "match", "why": null, "what": []}
+{"id": "rg-008", "cls": "match", "why": null, "what": []}
+{"id": "rg-009", "cls": "match", "why": null, "what": []}
+{"id": "rg-010", "cls": "match", "why": null, "what": []}
+{"id": "rg-011", "cls": "formatting", "why": "order", "what": ["stdout"]}
+{"id": "rg-012", "cls": "match", "why": null, "what": []}
+{"id": "rg-013", "cls": "match", "why": null, "what": []}
+{"id": "rg-014", "cls": "match", "why": null, "what": []}
+{"id": "rg-015", "cls": "match", "why": null, "what": []}
+{"id": "rg-016", "cls": "match", "why": null, "what": []}
+{"id": "rg-017", "cls": "match", "why": null, "what": []}
+{"id": "rg-018", "cls": "match", "why": null, "what": []}
+{"id": "rg-019", "cls": "match", "why": null, "what": []}
+{"id": "rg-020", "cls": "match", "why": null, "what": []}
+{"id": "rg-021", "cls": "match", "why": null, "what": []}
+{"id": "rg-022", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "rg-023", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-001", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-002", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-003", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "ls-stat-004", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "ls-stat-005", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "ls-stat-006", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-007", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-008", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "ls-stat-009", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "ls-stat-010", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-011", "cls": "error-text", "why": null, "what": ["stderr"]}
+{"id": "ls-stat-012", "cls": "loud-wrong", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "ls-stat-013", "cls": "formatting", "why": "ls-metadata", "what": ["stdout"]}
+{"id": "ls-stat-014", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-015", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-016", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "ls-stat-017", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-018", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-019", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-020", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "ls-stat-021", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "ls-stat-022", "cls": "match", "why": null, "what": []}
+{"id": "ls-stat-023", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "fileops-001", "cls": "match", "why": null, "what": []}
+{"id": "fileops-002", "cls": "error-text", "why": null, "what": ["stderr"]}
+{"id": "fileops-003", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "fileops-004", "cls": "match", "why": null, "what": []}
+{"id": "fileops-005", "cls": "match", "why": null, "what": []}
+{"id": "fileops-006", "cls": "match", "why": null, "what": []}
+{"id": "fileops-007", "cls": "match", "why": null, "what": []}
+{"id": "fileops-008", "cls": "match", "why": null, "what": []}
+{"id": "fileops-009", "cls": "match", "why": null, "what": []}
+{"id": "fileops-010", "cls": "match", "why": null, "what": []}
+{"id": "fileops-011", "cls": "match", "why": null, "what": []}
+{"id": "fileops-012", "cls": "loud-wrong", "why": null, "what": ["stdout", "exit", "files", "stderr"]}
+{"id": "fileops-013", "cls": "silent-wrong", "why": null, "what": ["stdout", "files"]}
+{"id": "fileops-014", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "fileops-015", "cls": "match", "why": null, "what": []}
+{"id": "fileops-016", "cls": "match", "why": null, "what": []}
+{"id": "fileops-017", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "fileops-018", "cls": "match", "why": null, "what": []}
+{"id": "fileops-019", "cls": "loud-wrong", "why": null, "what": ["stdout", "exit", "files", "stderr"]}
+{"id": "fileops-020", "cls": "match", "why": null, "what": []}
+{"id": "fileops-021", "cls": "match", "why": null, "what": []}
+{"id": "fileops-022", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-001", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-002", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-003", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-004", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "cut-tr-005", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "cut-tr-006", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-007", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-008", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-009", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "cut-tr-010", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-011", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-012", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-013", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-014", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-015", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-016", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-017", "cls": "match", "why": null, "what": []}
+{"id": "cut-tr-018", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "wc-001", "cls": "match", "why": null, "what": []}
+{"id": "wc-002", "cls": "match", "why": null, "what": []}
+{"id": "wc-003", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "wc-004", "cls": "match", "why": null, "what": []}
+{"id": "wc-005", "cls": "match", "why": null, "what": []}
+{"id": "wc-006", "cls": "match", "why": null, "what": []}
+{"id": "wc-007", "cls": "match", "why": null, "what": []}
+{"id": "wc-008", "cls": "match", "why": null, "what": []}
+{"id": "wc-009", "cls": "match", "why": null, "what": []}
+{"id": "wc-010", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "wc-011", "cls": "loud-wrong", "why": "both-fail", "what": ["stdout", "stderr"]}
+{"id": "wc-012", "cls": "match", "why": null, "what": []}
+{"id": "wc-013", "cls": "match", "why": null, "what": []}
+{"id": "wc-014", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "sort-uniq-001", "cls": "silent-wrong", "why": "sort-order", "what": ["stdout"]}
+{"id": "sort-uniq-002", "cls": "silent-wrong", "why": "sort-order", "what": ["stdout"]}
+{"id": "sort-uniq-003", "cls": "silent-wrong", "why": "sort-order", "what": ["stdout"]}
+{"id": "sort-uniq-004", "cls": "silent-wrong", "why": "sort-order", "what": ["stdout"]}
+{"id": "sort-uniq-005", "cls": "silent-wrong", "why": "sort-order", "what": ["stdout"]}
+{"id": "sort-uniq-006", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "sort-uniq-007", "cls": "match", "why": null, "what": []}
+{"id": "sort-uniq-008", "cls": "match", "why": null, "what": []}
+{"id": "sort-uniq-009", "cls": "match", "why": null, "what": []}
+{"id": "sort-uniq-010", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "sort-uniq-011", "cls": "match", "why": null, "what": []}
+{"id": "sort-uniq-012", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "sort-uniq-013", "cls": "match", "why": null, "what": []}
+{"id": "checksum-001", "cls": "match", "why": null, "what": []}
+{"id": "checksum-002", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "checksum-003", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "checksum-004", "cls": "match", "why": null, "what": []}
+{"id": "checksum-005", "cls": "match", "why": null, "what": []}
+{"id": "checksum-006", "cls": "match", "why": null, "what": []}
+{"id": "checksum-007", "cls": "loud-unsupported", "why": null, "what": ["stdout", "stderr"]}
+{"id": "checksum-008", "cls": "match", "why": null, "what": []}
+{"id": "checksum-009", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "awk-001", "cls": "match", "why": null, "what": []}
+{"id": "awk-002", "cls": "match", "why": null, "what": []}
+{"id": "awk-003", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "awk-004", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "awk-005", "cls": "match", "why": null, "what": []}
+{"id": "awk-006", "cls": "loud-wrong", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "awk-007", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "awk-008", "cls": "match", "why": null, "what": []}
+{"id": "awk-009", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "awk-010", "cls": "match", "why": null, "what": []}
+{"id": "awk-011", "cls": "match", "why": null, "what": []}
+{"id": "awk-012", "cls": "match", "why": null, "what": []}
+{"id": "awk-013", "cls": "match", "why": null, "what": []}
+{"id": "jq-001", "cls": "match", "why": null, "what": []}
+{"id": "jq-002", "cls": "match", "why": null, "what": []}
+{"id": "jq-003", "cls": "match", "why": null, "what": []}
+{"id": "jq-004", "cls": "match", "why": null, "what": []}
+{"id": "jq-005", "cls": "match", "why": null, "what": []}
+{"id": "jq-006", "cls": "match", "why": null, "what": []}
+{"id": "jq-007", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "jq-008", "cls": "match", "why": null, "what": []}
+{"id": "jq-009", "cls": "error-text", "why": null, "what": ["stderr"]}
+{"id": "find-xargs-001", "cls": "match", "why": null, "what": []}
+{"id": "find-xargs-002", "cls": "match", "why": null, "what": []}
+{"id": "find-xargs-003", "cls": "match", "why": null, "what": []}
+{"id": "find-xargs-004", "cls": "loud-unsupported", "why": null, "what": ["stdout", "stderr"]}
+{"id": "find-xargs-005", "cls": "match", "why": null, "what": []}
+{"id": "find-xargs-006", "cls": "match", "why": null, "what": []}
+{"id": "find-xargs-007", "cls": "match", "why": null, "what": []}
+{"id": "find-xargs-008", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "find-xargs-009", "cls": "loud-unsupported", "why": null, "what": ["stdout", "exit", "stderr"]}
+{"id": "find-xargs-010", "cls": "match", "why": null, "what": []}
+{"id": "find-xargs-011", "cls": "match", "why": null, "what": []}
+{"id": "diff-bytes-001", "cls": "match", "why": null, "what": []}
+{"id": "diff-bytes-002", "cls": "match", "why": null, "what": []}
+{"id": "diff-bytes-003", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "diff-bytes-004", "cls": "loud-unsupported", "why": null, "what": ["stdout", "stderr"]}
+{"id": "diff-bytes-005", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "diff-bytes-006", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "diff-bytes-007", "cls": "loud-unsupported", "why": null, "what": ["stdout", "stderr"]}
+{"id": "diff-bytes-008", "cls": "match", "why": null, "what": []}
+{"id": "diff-bytes-009", "cls": "match", "why": null, "what": []}
+{"id": "diff-bytes-010", "cls": "formatting", "why": "whitespace", "what": ["stdout"]}
+{"id": "shell-001", "cls": "match", "why": null, "what": []}
+{"id": "shell-002", "cls": "match", "why": null, "what": []}
+{"id": "shell-003", "cls": "error-text", "why": null, "what": ["stderr"]}
+{"id": "shell-004", "cls": "silent-wrong", "why": null, "what": ["stdout", "exit", "files", "stderr"]}
+{"id": "shell-005", "cls": "loud-wrong", "why": "both-fail", "what": ["exit", "stderr"]}
+{"id": "shell-006", "cls": "match", "why": null, "what": []}
+{"id": "shell-007", "cls": "match", "why": null, "what": []}
+{"id": "shell-008", "cls": "match", "why": null, "what": []}
+{"id": "shell-009", "cls": "match", "why": null, "what": []}
+{"id": "shell-010", "cls": "match", "why": null, "what": []}
+{"id": "shell-011", "cls": "match", "why": null, "what": []}
+{"id": "shell-012", "cls": "match", "why": null, "what": []}
+{"id": "shell-013", "cls": "match", "why": null, "what": []}
+{"id": "shell-014", "cls": "match", "why": null, "what": []}
+{"id": "shell-015", "cls": "match", "why": null, "what": []}
+{"id": "shell-016", "cls": "silent-wrong", "why": null, "what": ["stdout"]}
+{"id": "shell-017", "cls": "match", "why": null, "what": []}
+{"id": "shell-018", "cls": "match", "why": null, "what": []}
+{"id": "shell-019", "cls": "match", "why": null, "what": []}
+{"id": "shell-020", "cls": "match", "why": null, "what": []}
+{"id": "shell-021", "cls": "match", "why": null, "what": []}
+{"id": "shell-022", "cls": "match", "why": null, "what": []}
+{"id": "shell-023", "cls": "match", "why": null, "what": []}
+{"id": "shell-024", "cls": "match", "why": null, "what": []}
+{"id": "shell-025", "cls": "match", "why": null, "what": []}
+{"id": "shell-026", "cls": "match", "why": null, "what": []}
+{"id": "shell-027", "cls": "match", "why": null, "what": []}
+{"id": "shell-028", "cls": "match", "why": null, "what": []}
+{"id": "shell-029", "cls": "match", "why": null, "what": []}
+{"id": "shell-030", "cls": "match", "why": null, "what": []}
+{"id": "shell-031", "cls": "match", "why": null, "what": []}
+{"id": "shell-032", "cls": "match", "why": null, "what": []}
+{"id": "shell-033", "cls": "match", "why": null, "what": []}
+{"id": "shell-034", "cls": "match", "why": null, "what": []}
+{"id": "shell-035", "cls": "match", "why": null, "what": []}
+{"id": "shell-036", "cls": "match", "why": null, "what": []}
+{"id": "shell-037", "cls": "match", "why": null, "what": []}
+{"id": "shell-038", "cls": "loud-unsupported", "why": null, "what": ["stdout", "stderr"]}
+{"id": "shell-039", "cls": "match", "why": null, "what": []}
+{"id": "shell-040", "cls": "match", "why": null, "what": []}
+{"id": "shell-041", "cls": "match", "why": null, "what": []}
+{"id": "shell-042", "cls": "match", "why": null, "what": []}
+{"id": "shell-043", "cls": "match", "why": null, "what": []}
+{"id": "shell-044", "cls": "match", "why": null, "what": []}
+{"id": "shell-045", "cls": "silent-wrong", "why": null, "what": ["stdout", "files"]}
+{"id": "shell-046", "cls": "match", "why": null, "what": []}
+{"id": "shell-047", "cls": "match", "why": null, "what": []}
+{"id": "shell-048", "cls": "silent-wrong", "why": null, "what": ["files"]}
+{"id": "shell-049", "cls": "match", "why": null, "what": []}
+{"id": "shell-050", "cls": "match", "why": null, "what": []}
+{"id": "shell-051", "cls": "match", "why": null, "what": []}

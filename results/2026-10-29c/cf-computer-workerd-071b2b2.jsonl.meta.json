@@ -1,0 +1,6 @@
+{
+ "name": "cf-computer-workerd",
+ "version": "computer@071b2b2 (packages/computer 0.8.0) worker-shell in local workerd via @cloudflare/vitest-pool-workers + just-bash@3.2.0 [groups: core+jq+curl]",
+ "cases": 351,
+ "note": "stdout captured as UTF-8 text (exec encoding utf8): invalid UTF-8 output bytes become U+FFFD"
+}

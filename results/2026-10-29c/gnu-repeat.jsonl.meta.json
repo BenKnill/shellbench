@@ -1,0 +1,37 @@
+{
+ "oracle": "GNU",
+ "sandbox": "bubblewrap bubblewrap 0.11.1",
+ "env": {
+  "HOME": "/home/user",
+  "USER": "user",
+  "LOGNAME": "user",
+  "PATH": "/opt/gnubin:/usr/local/bin:/usr/bin:/bin",
+  "LC_ALL": "C.UTF-8",
+  "LANG": "C.UTF-8",
+  "TZ": "UTC",
+  "SHELL": "/bin/bash",
+  "TERM": "dumb"
+ },
+ "cwd": "/home/user/work",
+ "cases": 351,
+ "versions": {
+  "bash": "GNU bash, version 5.3.9(1)-release (x86_64-pc-linux-gnu)",
+  "ls": "ls (GNU coreutils) 9.7",
+  "sort": "sort (GNU coreutils) 9.7",
+  "cut": "cut (GNU coreutils) 9.7",
+  "wc": "wc (GNU coreutils) 9.7",
+  "head": "head (GNU coreutils) 9.7",
+  "sed": "sed (GNU sed) 4.9",
+  "grep": "grep (GNU grep) 3.12",
+  "awk": "GNU Awk 5.3.2, API 4.0, PMA Avon 8-g1, (GNU MPFR 4.2.2, GNU MP 6.3.0)",
+  "find": "find (GNU findutils) 4.10.0",
+  "xargs": "xargs (GNU findutils) 4.10.0",
+  "diff": "diff (GNU diffutils) 3.12",
+  "od": "od (GNU coreutils) 9.7",
+  "jq": "jq-1.8.1",
+  "rg": "ripgrep 15.1.0",
+  "xxd": "xxd 2025-11-26 by Juergen Weigert et al.",
+  "shasum": "6.04",
+  "command -v ls": "/opt/gnubin/ls"
+ }
+}

@@ -1,0 +1,7 @@
+{
+ "name": "just-bash",
+ "version": "just-bash@3.2.0 (npm) bundle-sha256:44cf67b1419905c4",
+ "node": "v26.12.0",
+ "cases": 351,
+ "seconds": 0.308
+}

@@ -1,0 +1,401 @@
+{
+ "cf-computer-b681446f": {
+  "families": {
+   "awk": {
+    "error-text": 1,
+    "formatting": 6,
+    "loud-unsupported": 3,
+    "loud-wrong": 6,
+    "match": 122,
+    "silent-wrong": 18
+   },
+   "checksum": {
+    "error-text": 2,
+    "formatting": 1,
+    "loud-unsupported": 129,
+    "loud-wrong": 4,
+    "match": 22,
+    "silent-wrong": 3
+   },
+   "cut-tr": {
+    "error-text": 13,
+    "formatting": 21,
+    "loud-unsupported": 4,
+    "loud-wrong": 7,
+    "match": 731,
+    "silent-wrong": 100
+   },
+   "diff-bytes": {
+    "error-text": 0,
+    "formatting": 0,
+    "loud-unsupported": 19,
+    "loud-wrong": 1,
+    "match": 7,
+    "silent-wrong": 19
+   },
+   "fileops": {
+    "error-text": 28,
+    "formatting": 6,
+    "loud-unsupported": 3,
+    "loud-wrong": 417,
+    "match": 410,
+    "silent-wrong": 21
+   },
+   "find-xargs": {
+    "error-text": 2,
+    "formatting": 15,
+    "loud-unsupported": 4,
+    "loud-wrong": 0,
+    "match": 31,
+    "silent-wrong": 22
+   },
+   "grep": {
+    "error-text": 15,
+    "formatting": 63,
+    "loud-unsupported": 10,
+    "loud-wrong": 9,
+    "match": 2299,
+    "silent-wrong": 218
+   },
+   "jq": {
+    "error-text": 8,
+    "formatting": 0,
+    "loud-unsupported": 0,
+    "loud-wrong": 1,
+    "match": 19,
+    "silent-wrong": 0
+   },
+   "ls-stat": {
+    "error-text": 12,
+    "formatting": 164,
+    "loud-unsupported": 26,
+    "loud-wrong": 14,
+    "match": 457,
+    "silent-wrong": 485
+   },
+   "rg": {
+    "error-text": 6,
+    "formatting": 150,
+    "loud-unsupported": 12,
+    "loud-wrong": 1,
+    "match": 849,
+    "silent-wrong": 221
+   },
+   "sed": {
+    "error-text": 13,
+    "formatting": 75,
+    "loud-unsupported": 19,
+    "loud-wrong": 17,
+    "match": 4542,
+    "silent-wrong": 175
+   },
+   "shell": {
+    "error-text": 49,
+    "formatting": 91,
+    "loud-unsupported": 28,
+    "loud-wrong": 67,
+    "match": 2809,
+    "silent-wrong": 292
+   },
+   "sort-uniq": {
+    "error-text": 2,
+    "formatting": 10,
+    "loud-unsupported": 2,
+    "loud-wrong": 0,
+    "match": 27,
+    "silent-wrong": 39
+   },
+   "view": {
+    "error-text": 49,
+    "formatting": 232,
+    "loud-unsupported": 45,
+    "loud-wrong": 321,
+    "match": 7533,
+    "silent-wrong": 877
+   },
+   "wc": {
+    "error-text": 3,
+    "formatting": 106,
+    "loud-unsupported": 16,
+    "loud-wrong": 8,
+    "match": 365,
+    "silent-wrong": 69
+   }
+  },
+  "overall": {
+   "error-text": 88,
+   "formatting": 411,
+   "loud-unsupported": 174,
+   "loud-wrong": 478,
+   "match": 11617,
+   "silent-wrong": 1182
+  },
+  "skipped": 0
+ },
+ "jb-main-7a2a7a57": {
+  "families": {
+   "awk": {
+    "error-text": 1,
+    "formatting": 6,
+    "loud-unsupported": 2,
+    "loud-wrong": 5,
+    "match": 127,
+    "silent-wrong": 15
+   },
+   "checksum": {
+    "error-text": 2,
+    "formatting": 1,
+    "loud-unsupported": 132,
+    "loud-wrong": 0,
+    "match": 24,
+    "silent-wrong": 2
+   },
+   "cut-tr": {
+    "error-text": 13,
+    "formatting": 24,
+    "loud-unsupported": 5,
+    "loud-wrong": 4,
+    "match": 754,
+    "silent-wrong": 76
+   },
+   "diff-bytes": {
+    "error-text": 0,
+    "formatting": 2,
+    "loud-unsupported": 19,
+    "loud-wrong": 0,
+    "match": 16,
+    "silent-wrong": 9
+   },
+   "fileops": {
+    "error-text": 20,
+    "formatting": 11,
+    "loud-unsupported": 6,
+    "loud-wrong": 2,
+    "match": 832,
+    "silent-wrong": 14
+   },
+   "find-xargs": {
+    "error-text": 2,
+    "formatting": 15,
+    "loud-unsupported": 4,
+    "loud-wrong": 0,
+    "match": 32,
+    "silent-wrong": 21
+   },
+   "grep": {
+    "error-text": 15,
+    "formatting": 71,
+    "loud-unsupported": 6,
+    "loud-wrong": 5,
+    "match": 2405,
+    "silent-wrong": 112
+   },
+   "jq": {
+    "error-text": 8,
+    "formatting": 0,
+    "loud-unsupported": 0,
+    "loud-wrong": 1,
+    "match": 19,
+    "silent-wrong": 0
+   },
+   "ls-stat": {
+    "error-text": 11,
+    "formatting": 418,
+    "loud-unsupported": 22,
+    "loud-wrong": 10,
+    "match": 529,
+    "silent-wrong": 168
+   },
+   "rg": {
+    "error-text": 4,
+    "formatting": 152,
+    "loud-unsupported": 12,
+    "loud-wrong": 0,
+    "match": 915,
+    "silent-wrong": 156
+   },
+   "sed": {
+    "error-text": 13,
+    "formatting": 91,
+    "loud-unsupported": 19,
+    "loud-wrong": 13,
+    "match": 4593,
+    "silent-wrong": 112
+   },
+   "shell": {
+    "error-text": 41,
+    "formatting": 134,
+    "loud-unsupported": 27,
+    "loud-wrong": 14,
+    "match": 2976,
+    "silent-wrong": 144
+   },
+   "sort-uniq": {
+    "error-text": 2,
+    "formatting": 10,
+    "loud-unsupported": 2,
+    "loud-wrong": 0,
+    "match": 28,
+    "silent-wrong": 38
+   },
+   "view": {
+    "error-text": 41,
+    "formatting": 398,
+    "loud-unsupported": 42,
+    "loud-wrong": 7,
+    "match": 8231,
+    "silent-wrong": 338
+   },
+   "wc": {
+    "error-text": 2,
+    "formatting": 121,
+    "loud-unsupported": 15,
+    "loud-wrong": 5,
+    "match": 397,
+    "silent-wrong": 27
+   }
+  },
+  "overall": {
+   "error-text": 71,
+   "formatting": 667,
+   "loud-unsupported": 171,
+   "loud-wrong": 26,
+   "match": 12496,
+   "silent-wrong": 519
+  },
+  "skipped": 0
+ },
+ "jb-npm-3.6.0": {
+  "families": {
+   "awk": {
+    "error-text": 1,
+    "formatting": 6,
+    "loud-unsupported": 2,
+    "loud-wrong": 5,
+    "match": 127,
+    "silent-wrong": 15
+   },
+   "checksum": {
+    "error-text": 2,
+    "formatting": 1,
+    "loud-unsupported": 132,
+    "loud-wrong": 0,
+    "match": 24,
+    "silent-wrong": 2
+   },
+   "cut-tr": {
+    "error-text": 13,
+    "formatting": 24,
+    "loud-unsupported": 5,
+    "loud-wrong": 4,
+    "match": 750,
+    "silent-wrong": 80
+   },
+   "diff-bytes": {
+    "error-text": 0,
+    "formatting": 2,
+    "loud-unsupported": 19,
+    "loud-wrong": 0,
+    "match": 16,
+    "silent-wrong": 9
+   },
+   "fileops": {
+    "error-text": 20,
+    "formatting": 11,
+    "loud-unsupported": 6,
+    "loud-wrong": 2,
+    "match": 832,
+    "silent-wrong": 14
+   },
+   "find-xargs": {
+    "error-text": 2,
+    "formatting": 15,
+    "loud-unsupported": 4,
+    "loud-wrong": 0,
+    "match": 32,
+    "silent-wrong": 21
+   },
+   "grep": {
+    "error-text": 15,
+    "formatting": 71,
+    "loud-unsupported": 6,
+    "loud-wrong": 5,
+    "match": 2332,
+    "silent-wrong": 185
+   },
+   "jq": {
+    "error-text": 8,
+    "formatting": 0,
+    "loud-unsupported": 0,
+    "loud-wrong": 1,
+    "match": 19,
+    "silent-wrong": 0
+   },
+   "ls-stat": {
+    "error-text": 11,
+    "formatting": 418,
+    "loud-unsupported": 22,
+    "loud-wrong": 10,
+    "match": 526,
+    "silent-wrong": 171
+   },
+   "rg": {
+    "error-text": 4,
+    "formatting": 152,
+    "loud-unsupported": 12,
+    "loud-wrong": 0,
+    "match": 854,
+    "silent-wrong": 217
+   },
+   "sed": {
+    "error-text": 13,
+    "formatting": 91,
+    "loud-unsupported": 19,
+    "loud-wrong": 13,
+    "match": 4558,
+    "silent-wrong": 147
+   },
+   "shell": {
+    "error-text": 41,
+    "formatting": 134,
+    "loud-unsupported": 27,
+    "loud-wrong": 14,
+    "match": 2952,
+    "silent-wrong": 168
+   },
+   "sort-uniq": {
+    "error-text": 2,
+    "formatting": 10,
+    "loud-unsupported": 2,
+    "loud-wrong": 0,
+    "match": 27,
+    "silent-wrong": 39
+   },
+   "view": {
+    "error-text": 41,
+    "formatting": 398,
+    "loud-unsupported": 42,
+    "loud-wrong": 7,
+    "match": 8132,
+    "silent-wrong": 437
+   },
+   "wc": {
+    "error-text": 2,
+    "formatting": 121,
+    "loud-unsupported": 15,
+    "loud-wrong": 5,
+    "match": 393,
+    "silent-wrong": 31
+   }
+  },
+  "overall": {
+   "error-text": 71,
+   "formatting": 667,
+   "loud-unsupported": 171,
+   "loud-wrong": 26,
+   "match": 12362,
+   "silent-wrong": 653
+  },
+  "skipped": 0
+ }
+}
