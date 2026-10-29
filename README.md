@@ -60,11 +60,16 @@ applies wins. "The answer differs" means that stdout, the exit status or the fil
 | Class | Meaning |
 |---|---|
 | match | stdout, exit status, file changes and stderr all identical |
-| error-text | only stderr differs (message wording) |
+| error-text | only stderr differs |
 | loud-unsupported | the answer differs, and the subject prints a not-found, unknown-option or unsupported message that GNU does not print |
 | formatting | exit status and file changes identical; stdout differs only in whitespace, in line order, or in `ls -l` fields an in-memory file system cannot know (owner, group, link count, times, directory sizes, block totals) |
 | loud-wrong | the answer differs, and the subject's stderr is not empty and differs from GNU's |
 | silent-wrong | everything else: the answer differs in substance, and the subject printed no error that GNU did not also print |
+
+`error-text` is the scorer's label for differences confined to stderr; these are not necessarily
+wording changes. `formatting` is a heuristic tolerance category for the specified whitespace, order,
+and metadata differences. Neither relaxed category establishes semantic equivalence. The strict
+`match` column is the exact comparison under the documented measurement contract.
 
 Some consequences of these rules are worth knowing:
 
@@ -154,9 +159,10 @@ or `{"dir": true}`, each with an optional `mode`. Case ids are stable, and new c
 | Cloudflare Computer worker-shell, local workerd (`071b2b2`, runs just-bash 3.2.0) | 68.7% | 70.4% | 74.4% | 57 (54) | 14 | 19 |
 
 Percentages are of 351 scored cases. The "+" columns are cumulative: "+ formatting" counts match,
-error-text and formatting together. The other columns count cases. Every subject was measured as
-shipped, or as built from source, with default options. "Silent" is relative to this oracle, GNU
-tools on Linux.
+error-text and formatting together. They add the two relaxed categories, which do not establish
+semantic equivalence (see [Verdicts](#verdicts)); Match is the strict comparison. The other columns
+count cases. Every subject was measured as shipped, or as built from source, with default options.
+"Silent" is relative to this oracle, GNU tools on Linux.
 
 **Subjects.**
 
@@ -279,7 +285,12 @@ The comparison below covers the three builds that both the suite and the corpus 
 The corpus was re-classified under the verdict rules above (`tools/corpus_rescore.py`). The
 comparison itself is `tools/validate.py`, with output in `validation/validation-2026-10-29c.md`. For
 Cloudflare, the corpus used the Node host at `b681446f` and the suite row is the workerd host at
-`071b2b2`. The two gave identical results on every suite case.
+`071b2b2`. The two gave identical results on all 351 suite cases; that does not establish that
+they agree on every private-corpus command.
+
+This comparison is in-sample: the same private study informed the suite's family weights and
+divergence probes. It checks consistency with that study; it is not a held-out estimate of
+performance on other agents or projects.
 
 | Build | Suite match | Corpus match | Suite silent-wrong | Corpus silent-wrong |
 |---|---|---|---|---|
@@ -351,14 +362,32 @@ Requirements: Node (we used 26.12) and Python 3.10 or later for the subjects and
 Linux host with a bubblewrap that supports `--tmp-overlay` (we used 0.11.1) and the GNU tools for
 the oracle.
 
+The oracle needs a directory of GNU coreutils under their plain names (`ls`, `sort`, ...), passed
+as `SB_GNUBIN`; it is mounted read-only as `/opt/gnubin`, first on `PATH`. How to provide it depends
+on the oracle host:
+
+- **(a) GNU coreutils already have ordinary names** (the default coreutils are GNU): use that
+  directory as it is, usually `/usr/bin` (step 1a below).
+- **(b) GNU coreutils installed under a `gnu` prefix.** Step 1b below is for this layout, which the
+  published run's oracle host had: on Ubuntu 26.04 the default `ls`, `sort` and so on come from
+  rust-coreutils, and the `gnu-coreutils` package installs GNU coreutils as `/usr/bin/gnuls`,
+  `/usr/bin/gnusort` and so on. Step 1b assumes that package is installed and that every
+  `/usr/bin/gnu*` file belongs to it (check with `dpkg -S`); it makes symlinks to absolute paths
+  under `/usr`, which the sandbox also mounts. On a host with another layout, make the same kind of
+  directory from wherever its GNU coreutils are.
+
+Either way, `results/RUN/gnu.jsonl.meta.json` records the version of `ls` and other tools and
+`command -v ls`, which show which tools ran.
+
 ```sh
-# 1. a directory of GNU coreutils under plain names, if they are not the default on that host
-mkdir gnubin && for f in /usr/bin/gnu*; do ln -s "$f" "gnubin/${f##*/gnu}"; done
+# 1. G = the GNU coreutils directory on the oracle host (see above); run 1a or 1b there, not both
+G=/usr/bin                                                                               # 1a
+mkdir gnubin && for f in /usr/bin/gnu*; do ln -s "$f" "gnubin/${f##*/gnu}"; done && G=$PWD/gnubin   # 1b
 # 2. a subjects file: NAME<TAB>ADAPTER<TAB>ADAPTER_OPTS_JSON
 printf 'jb-3.6.0\trunners/node/adapters/just-bash.mjs\t{"package":"/path/to/node_modules/just-bash"}\n' > subjects.tsv
 # 3. run: builds the suite, runs the oracle twice (here or over ssh), runs each subject, scores
-SB_GNUBIN=$PWD/gnubin tools/run.sh myrun subjects.tsv                                   # oracle on this Linux host
-SB_GNUBIN=/path/on/host/gnubin SB_ORACLE_SSH=linuxbox tools/run.sh myrun subjects.tsv   # oracle over ssh
+SB_GNUBIN=$G tools/run.sh myrun subjects.tsv                                   # oracle on this Linux host
+SB_GNUBIN=/dir/G/on/linuxbox SB_ORACLE_SSH=linuxbox tools/run.sh myrun subjects.tsv   # oracle over ssh: step 1's directory there
 ```
 
 `results/myrun/` then holds the raw results, `verdicts-*.jsonl`, `scores.json` and `scores.md`.
@@ -392,7 +421,7 @@ printf 'jb-npm-3.6.0\t%s\t{"package":"%s/jb360/node_modules/just-bash"}\n' "$J" 
 printf 'jb-main-7a2a7a57\t%s\t{"package":"%s/just-bash/packages/just-bash"}\n' "$J" "$W" >> subjects.tsv
 printf 'jb-3.2.0\t%s\t{"package":"%s/jb320/node_modules/just-bash"}\n' "$J" "$W" >> subjects.tsv
 cd shellbench
-SB_GNUBIN=/path/on/host/gnubin SB_ORACLE_SSH=linuxbox tools/run.sh myrun "$W/subjects.tsv"
+SB_GNUBIN=/dir/G/on/linuxbox SB_ORACLE_SSH=linuxbox tools/run.sh myrun "$W/subjects.tsv"
 runners/workerd/run.sh "$W/computer" results/myrun
 python3 -I tools/validate.py results/myrun/scores.json validation/corpus-rescored.json \
   results/myrun/validation cf-computer-workerd-071b2b2=cf-computer-b681446f
